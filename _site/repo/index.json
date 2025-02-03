@@ -1,0 +1,74 @@
+{
+  "version": "v1",
+  "blocklist": [],
+  "data": [
+    {
+      "schema_version": "1.0.0",
+      "id": "molecularnodes",
+      "name": "Molecular Nodes",
+      "tagline": "A toolbox for molecular import and animation in Blender",
+      "version": "4.2.11",
+      "type": "add-on",
+      "maintainer": "Brady Johnston<brady.johnston@me.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "website": "https://bradyajohnston.github.io/MolecularNodes",
+      "copyright": [
+        "2022-2024 Brady Johnston"
+      ],
+      "permissions": {
+        "network": "Downloading structural data from the PDB and AFPDB",
+        "files": "Importing data files from disk and caching downloads"
+      },
+      "tags": [
+        "Geometry Nodes",
+        "Import-Export"
+      ],
+      "platforms": [
+        "linux-x64"
+      ],
+      "python_versions": [
+        "3.11"
+      ],
+      "archive_url": "./molecularnodes-4.2.11-linux_x64.zip",
+      "archive_size": 136902299,
+      "archive_hash": "sha256:a824245f67249284c33b57eeb7af88bdb088c88c556ab10b10b48103a1d495fb"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "molecularnodes",
+      "name": "Molecular Nodes",
+      "tagline": "A toolbox for molecular import and animation in Blender",
+      "version": "4.2.11",
+      "type": "add-on",
+      "maintainer": "Brady Johnston<brady.johnston@me.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "website": "https://bradyajohnston.github.io/MolecularNodes",
+      "copyright": [
+        "2022-2024 Brady Johnston"
+      ],
+      "permissions": {
+        "network": "Downloading structural data from the PDB and AFPDB",
+        "files": "Importing data files from disk and caching downloads"
+      },
+      "tags": [
+        "Geometry Nodes",
+        "Import-Export"
+      ],
+      "platforms": [
+        "windows-x64"
+      ],
+      "python_versions": [
+        "3.11"
+      ],
+      "archive_url": "./molecularnodes-4.2.11-windows_x64.zip",
+      "archive_size": 109061770,
+      "archive_hash": "sha256:322dc5e3d720d6a4193ba30a3f7410e3ad147e7e8e1a655392209c4bd728843c"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+project:
+  type: website
+  pre-render: generate.py
+  resources:
+  - repo/*
+  
+
+website:
+  title: "Extension Repo"
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

@@ -1,0 +1,11 @@
+---
+title: "Personal Extension Repo"
+listing:
+  id: addon-listing
+  contents:
+    repo/index.yaml
+
+---
+
+::: {#addon-listings}
+:::
