@@ -6,7 +6,8 @@ on:
 
 jobs:
   build-website:
-    runs-on: macos-latest
+    runs-on: macos-14
+    permissions: write-all
     strategy:
       matrix:
         repo: ["BradyAJohnston/MolecularNodes"]
