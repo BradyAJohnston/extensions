@@ -8,9 +8,6 @@ jobs:
   build-website:
     runs-on: macos-14
     permissions: write-all
-    strategy:
-      matrix:
-        repo: ["BradyAJohnston/MolecularNodes"]
     steps:
       - uses: actions/checkout@v4
       - uses: quarto-dev/quarto-actions/setup@v2
@@ -24,10 +21,9 @@ jobs:
     
       - name: Get Release Assets
         run: |
-          echo "" > assets.json
-          gh release view --repo ${{ matrix.repo }} --json assets,name,url >> assets.json
+          uv run download.py
         env:
-          GH_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ github.token }}
       - name: Generate index.json
         run: |
             blender --command extension server-generate --repo-dir=repo
