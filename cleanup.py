@@ -17,5 +17,5 @@ for item in index_data["data"]:
         item["archive_url"] = url_map[filename]
 
 # Write updated index.json
-with open("repo/index.json", "w") as f:
+with open("index.json", "w") as f:
     json.dump(index_data, f, indent=2)
