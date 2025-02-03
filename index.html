@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.33">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -37,10 +37,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-07ba0ad10f5680c660e360ac31d2f3b6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-75872b7231d27b7b57c0fca3b1015f30.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-7f87fece90f3c718d328ded471448896.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-description','listing-id','listing-maintainer','listing-permissions','listing-releases','listing-title','listing-version',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-description","listing-id","listing-maintainer","listing-permissions","listing-releases","listing-title","listing-version"],
+      searchColumns: [],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -197,58 +197,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-custom" id="listing-addon-listing">
 <div class="grid text-center list">
-<div class="g-col-12 g-col-lg-12 g-col-xl-6" data-index="0">
-<div class="quarto-grid-item card h-100 card-center hovercard-extension">
-<div class="extension-list">
 
-  <div class="extension-item">
-    <h3 class="anchored"><a href="">Molecular Nodes</a></h3>
-    <p class="tagline"></p>
-    
-    <div class="metadata">
-      <span class="version">Version: 4.2.11</span>
-      <span class="maintainer">By: Brady Johnston<brady.johnston@me.com></brady.johnston@me.com></span>
-    </div>
-
-    <div class="details">
-      
-
-      
-        <div class="permissions">
-          <h4 class="anchored">Permissions:</h4>
-          <ul>
-            
-              <li><strong>files:</strong> Importing data files from disk and caching downloads</li>
-            
-              <li><strong>network:</strong> Downloading structural data from the PDB and AFPDB</li>
-            
-          </ul>
-        </div>
-      
-
-      
-        <div class="platforms">
-          <h4 class="anchored">Available Platforms:</h4>
-          <ul>
-            
-              <li><a href="https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.2.11/molecularnodes-4.2.11-windows_x64.zip">windows-x64</a></li>
-            
-              <li><a href="https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.2.11/molecularnodes-4.2.11-linux_x64.zip">linux-x64</a></li>
-            
-              <li><a href="https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.2.11/molecularnodes-4.2.11-macos_x64.zip">macos-x64</a></li>
-            
-              <li><a href="https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.2.11/molecularnodes-4.2.11-macos_arm64.zip">macos-arm64</a></li>
-            
-          </ul>
-        </div>
-      
-    </div>
-  </div>
-
-</div>
-
-</div>
-</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
@@ -336,8 +285,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -346,7 +293,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/BradyAJohnston\.github\.io\/extensions\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -448,7 +395,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
