@@ -10,5 +10,16 @@ listing:
 
 ---
 
+This is an experiment in self-hosting a Blender extensions repo, using the released assets from different GitHub repos as the download files. 
+
+Assets are sourced from repos listed in [source.txt](https://github.com/BradyAJohnston/extensions/blob/main/repo/source.txt)
+
+You can add this repo with the following url:
+```bash
+https://bradyajohnston.github.io/extensions/index.json
+```
+
+![](https://imgur.com/3dpyoDN.mp4)
+
 ::: {#addon-listings}
 :::

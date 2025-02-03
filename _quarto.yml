@@ -14,6 +14,9 @@ website:
     left:
       - text: Home
         href: index.qmd
+    tools:
+      - icon: github
+        href: https://github.com/BradyAJohnston/extensions
 
 format:
   html:
