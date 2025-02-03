@@ -1,16 +1,12 @@
 name: Download Release Files
 
 on:
-  workflow_dispatch:
-    inputs:
-      repos:
-        description: 'Repositories to download from (format: owner/repo, one per line)'
-        required: true
-        type: string
+  push:
+    branches: ["main"]
 
 jobs:
-  download-releases:
-    runs-on: ubuntu-latest
+  build-website:
+    runs-on: macos-latest
     strategy:
       matrix:
         repo: ["BradyAJohnston/MolecularNodes"]
