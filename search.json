@@ -4,6 +4,6 @@
     "href": "index.html",
     "title": "Personal Extension Repo",
     "section": "",
-    "text": "No matching items"
+    "text": "Molecular Nodes\n    \n    \n    \n      Version: 4.2.11\n      By: Brady Johnston\n    \n\n    \n      \n\n      \n        \n          Permissions:\n          \n            \n              files: Importing data files from disk and caching downloads\n            \n              network: Downloading structural data from the PDB and AFPDB\n            \n          \n        \n      \n\n      \n        \n          Available Platforms:\n          \n            \n              windows-x64\n            \n              linux-x64\n            \n              macos-x64\n            \n              macos-arm64\n            \n          \n        \n      \n    \n  \n\n\n\n\n\n\n\nNo matching items"
   }
 ]

@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-description','listing-id','listing-maintainer','listing-permissions','listing-releases','listing-title','listing-version',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-description","listing-id","listing-maintainer","listing-permissions","listing-releases","listing-title","listing-version"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -197,7 +197,58 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-custom" id="listing-addon-listing">
 <div class="grid text-center list">
+<div class="g-col-12 g-col-lg-12 g-col-xl-6" data-index="0">
+<div class="quarto-grid-item card h-100 card-center hovercard-extension">
+<div class="extension-list">
 
+  <div class="extension-item">
+    <h3 class="anchored"><a href="">Molecular Nodes</a></h3>
+    <p class="tagline"></p>
+    
+    <div class="metadata">
+      <span class="version">Version: 4.2.11</span>
+      <span class="maintainer">By: Brady Johnston<brady.johnston@me.com></brady.johnston@me.com></span>
+    </div>
+
+    <div class="details">
+      
+
+      
+        <div class="permissions">
+          <h4 class="anchored">Permissions:</h4>
+          <ul>
+            
+              <li><strong>files:</strong> Importing data files from disk and caching downloads</li>
+            
+              <li><strong>network:</strong> Downloading structural data from the PDB and AFPDB</li>
+            
+          </ul>
+        </div>
+      
+
+      
+        <div class="platforms">
+          <h4 class="anchored">Available Platforms:</h4>
+          <ul>
+            
+              <li><a href="./molecularnodes-4.2.11-windows_x64.zip">windows-x64</a></li>
+            
+              <li><a href="./molecularnodes-4.2.11-linux_x64.zip">linux-x64</a></li>
+            
+              <li><a href="./molecularnodes-4.2.11-macos_x64.zip">macos-x64</a></li>
+            
+              <li><a href="./molecularnodes-4.2.11-macos_arm64.zip">macos-arm64</a></li>
+            
+          </ul>
+        </div>
+      
+    </div>
+  </div>
+
+</div>
+
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
