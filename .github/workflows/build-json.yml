@@ -31,9 +31,9 @@ jobs:
         run: |
             blender --command extension server-generate --repo-dir=repo
     
-            - name: Quarto Render
-            run: |
-                uv run quarto render docs
+      - name: Quarto Render
+        run: |
+          uv run quarto render docs
     
       - name: Publish to GitHub Pages (and render)
         uses: quarto-dev/quarto-actions/publish@v2
