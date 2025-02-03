@@ -1,8 +1,11 @@
 project:
   type: website
-  pre-render: generate.py
+  output-dir: _build
+  pre-render: 
+    - generate.py
+    - cleanup.py
   resources:
-  - repo/*
+  - repo/index.json
   
 
 website:
@@ -14,9 +17,8 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      - cosmo
+      - assets/stylesheets/extensions.scss
     css: styles.css
     toc: true
-
-
-

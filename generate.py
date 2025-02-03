@@ -11,8 +11,9 @@ for entry in data["data"]:
     found = False
     for item in info:
         if item["id"] == addon_id:
-            item["platforms"].append(entry["platforms"][0])
-            item["archive_urls"].append(entry["archive_url"])
+            item["releases"].append(
+                {"platform": entry["platforms"][0], "url": entry["archive_url"]}
+            )
             found = True
             break
 
@@ -22,11 +23,12 @@ for entry in data["data"]:
                 "id": addon_id,
                 "title": entry["name"],
                 "version": entry["version"],
-                "platforms": [entry["platforms"][0]],
-                "archive_urls": [entry["archive_url"]],
+                "releases": [
+                    {"platform": entry["platforms"][0], "url": entry["archive_url"]}
+                ],
                 "permissions": entry["permissions"],
                 "description": entry["tagline"],
-                "author": entry["maintainer"],
+                "maintainer": entry["maintainer"],
             }
         )
 

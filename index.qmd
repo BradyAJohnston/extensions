@@ -1,7 +1,10 @@
 ---
 title: "Personal Extension Repo"
 listing:
+  template: custom.ejs
   id: addon-listing
+  type: grid
+  grid-columns: 2
   contents:
     repo/index.yaml
 

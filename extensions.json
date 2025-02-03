@@ -1,0 +1,10 @@
+{
+    "name": "Molecular Nodes",
+    "description": "Sourcegraph extension",
+    "author": {
+        "name": "Brady Johnston",
+        "email": "example@example.com",
+        "url": "bradyajohnston.github.io"
+    },
+    "repo": "BradyAJohnston/MolecularNodes"
+}
