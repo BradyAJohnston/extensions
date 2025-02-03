@@ -5,7 +5,7 @@ project:
     - generate.py
     - cleanup.py
   resources:
-  - repo/index.json
+  - index.json
   
 
 website:
