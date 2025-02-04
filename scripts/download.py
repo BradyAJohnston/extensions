@@ -6,7 +6,7 @@ import subprocess
 def source_gh_release_info():
     import json
 
-    with open("source.txt", "r") as f:
+    with open("repo/source.txt", "r") as f:
         lines = f.readlines()
 
     all_assets = []
