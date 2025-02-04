@@ -26,9 +26,13 @@ for entry in data["data"]:
                 "releases": [
                     {"platform": entry["platforms"][0], "url": entry["archive_url"]}
                 ],
+                "website": entry["website"],
                 "permissions": entry["permissions"],
                 "description": entry["tagline"],
                 "maintainer": entry["maintainer"],
+                "tagline": entry["tagline"],
+                "blender_version_min": entry["blender_version_min"],
+                "tags": entry["tags"],
             }
         )
 

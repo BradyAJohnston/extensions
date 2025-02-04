@@ -1,2 +1,106 @@
-{"assets":[{"apiUrl":"https://api.github.com/repos/BradyAJohnston/MolecularNodes/releases/assets/225579364","contentType":"application/zip","createdAt":"2025-02-02T06:33:38Z","downloadCount":8,"id":"RA_kwDOHOyCmM4NchFk","label":"","name":"molecularnodes-4.2.11-linux_x64.zip","size":136875962,"state":"uploaded","updatedAt":"2025-02-02T06:38:17Z","url":"https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.2.11/molecularnodes-4.2.11-linux_x64.zip"},{"apiUrl":"https://api.github.com/repos/BradyAJohnston/MolecularNodes/releases/assets/225579365","contentType":"application/zip","createdAt":"2025-02-02T06:33:38Z","downloadCount":6,"id":"RA_kwDOHOyCmM4NchFl","label":"","name":"molecularnodes-4.2.11-macos_arm64.zip","size":98618641,"state":"uploaded","updatedAt":"2025-02-02T06:37:35Z","url":"https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.2.11/molecularnodes-4.2.11-macos_arm64.zip"},{"apiUrl":"https://api.github.com/repos/BradyAJohnston/MolecularNodes/releases/assets/225579363","contentType":"application/zip","createdAt":"2025-02-02T06:33:38Z","downloadCount":5,"id":"RA_kwDOHOyCmM4NchFj","label":"","name":"molecularnodes-4.2.11-macos_x64.zip","size":111705050,"state":"uploaded","updatedAt":"2025-02-02T06:37:56Z","url":"https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.2.11/molecularnodes-4.2.11-macos_x64.zip"},{"apiUrl":"https://api.github.com/repos/BradyAJohnston/MolecularNodes/releases/assets/225579366","contentType":"application/zip","createdAt":"2025-02-02T06:33:38Z","downloadCount":10,"id":"RA_kwDOHOyCmM4NchFm","label":"","name":"molecularnodes-4.2.11-windows_x64.zip","size":109035432,"state":"uploaded","updatedAt":"2025-02-02T06:37:52Z","url":"https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.2.11/molecularnodes-4.2.11-windows_x64.zip"}],"name":"v4.2.11 for Blender 4.2+","url":"https://github.com/BradyAJohnston/MolecularNodes/releases/tag/v4.2.11"}
-
+[
+  {
+    "apiUrl": "https://api.github.com/repos/BradyAJohnston/MolecularNodes/releases/assets/225579364",
+    "contentType": "application/zip",
+    "createdAt": "2025-02-02T06:33:38Z",
+    "downloadCount": 11,
+    "id": "RA_kwDOHOyCmM4NchFk",
+    "label": "",
+    "name": "molecularnodes-4.2.11-linux_x64.zip",
+    "size": 136875962,
+    "state": "uploaded",
+    "updatedAt": "2025-02-02T06:38:17Z",
+    "url": "https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.2.11/molecularnodes-4.2.11-linux_x64.zip"
+  },
+  {
+    "apiUrl": "https://api.github.com/repos/BradyAJohnston/MolecularNodes/releases/assets/225579365",
+    "contentType": "application/zip",
+    "createdAt": "2025-02-02T06:33:38Z",
+    "downloadCount": 10,
+    "id": "RA_kwDOHOyCmM4NchFl",
+    "label": "",
+    "name": "molecularnodes-4.2.11-macos_arm64.zip",
+    "size": 98618641,
+    "state": "uploaded",
+    "updatedAt": "2025-02-02T06:37:35Z",
+    "url": "https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.2.11/molecularnodes-4.2.11-macos_arm64.zip"
+  },
+  {
+    "apiUrl": "https://api.github.com/repos/BradyAJohnston/MolecularNodes/releases/assets/225579363",
+    "contentType": "application/zip",
+    "createdAt": "2025-02-02T06:33:38Z",
+    "downloadCount": 9,
+    "id": "RA_kwDOHOyCmM4NchFj",
+    "label": "",
+    "name": "molecularnodes-4.2.11-macos_x64.zip",
+    "size": 111705050,
+    "state": "uploaded",
+    "updatedAt": "2025-02-02T06:37:56Z",
+    "url": "https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.2.11/molecularnodes-4.2.11-macos_x64.zip"
+  },
+  {
+    "apiUrl": "https://api.github.com/repos/BradyAJohnston/MolecularNodes/releases/assets/225579366",
+    "contentType": "application/zip",
+    "createdAt": "2025-02-02T06:33:38Z",
+    "downloadCount": 17,
+    "id": "RA_kwDOHOyCmM4NchFm",
+    "label": "",
+    "name": "molecularnodes-4.2.11-windows_x64.zip",
+    "size": 109035432,
+    "state": "uploaded",
+    "updatedAt": "2025-02-02T06:37:52Z",
+    "url": "https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.2.11/molecularnodes-4.2.11-windows_x64.zip"
+  },
+  {
+    "apiUrl": "https://api.github.com/repos/BradyAJohnston/blender_csv_import/releases/assets/226056082",
+    "contentType": "application/zip",
+    "createdAt": "2025-02-04T03:06:07Z",
+    "downloadCount": 0,
+    "id": "RA_kwDONl-j-84NeVeS",
+    "label": "",
+    "name": "csv_importer-0.1.6-linux_x64.zip",
+    "size": 31674452,
+    "state": "uploaded",
+    "updatedAt": "2025-02-04T03:06:09Z",
+    "url": "https://github.com/BradyAJohnston/blender_csv_import/releases/download/v0.1.6/csv_importer-0.1.6-linux_x64.zip"
+  },
+  {
+    "apiUrl": "https://api.github.com/repos/BradyAJohnston/blender_csv_import/releases/assets/226056081",
+    "contentType": "application/zip",
+    "createdAt": "2025-02-04T03:06:07Z",
+    "downloadCount": 0,
+    "id": "RA_kwDONl-j-84NeVeR",
+    "label": "",
+    "name": "csv_importer-0.1.6-macos_arm64.zip",
+    "size": 28066530,
+    "state": "uploaded",
+    "updatedAt": "2025-02-04T03:06:09Z",
+    "url": "https://github.com/BradyAJohnston/blender_csv_import/releases/download/v0.1.6/csv_importer-0.1.6-macos_arm64.zip"
+  },
+  {
+    "apiUrl": "https://api.github.com/repos/BradyAJohnston/blender_csv_import/releases/assets/226056085",
+    "contentType": "application/zip",
+    "createdAt": "2025-02-04T03:06:07Z",
+    "downloadCount": 0,
+    "id": "RA_kwDONl-j-84NeVeV",
+    "label": "",
+    "name": "csv_importer-0.1.6-macos_x64.zip",
+    "size": 31047842,
+    "state": "uploaded",
+    "updatedAt": "2025-02-04T03:06:09Z",
+    "url": "https://github.com/BradyAJohnston/blender_csv_import/releases/download/v0.1.6/csv_importer-0.1.6-macos_x64.zip"
+  },
+  {
+    "apiUrl": "https://api.github.com/repos/BradyAJohnston/blender_csv_import/releases/assets/226056084",
+    "contentType": "application/zip",
+    "createdAt": "2025-02-04T03:06:07Z",
+    "downloadCount": 0,
+    "id": "RA_kwDONl-j-84NeVeU",
+    "label": "",
+    "name": "csv_importer-0.1.6-windows_x64.zip",
+    "size": 31762441,
+    "state": "uploaded",
+    "updatedAt": "2025-02-04T03:06:09Z",
+    "url": "https://github.com/BradyAJohnston/blender_csv_import/releases/download/v0.1.6/csv_importer-0.1.6-windows_x64.zip"
+  }
+]

@@ -4,23 +4,28 @@ import subprocess
 
 
 def source_gh_release_info():
+    import json
+
     with open("repo/source.txt", "r") as f:
         lines = f.readlines()
 
+    all_assets = []
+    for line in lines:
+        command = [
+            "gh",
+            "release",
+            "view",
+            "--repo",
+            line.strip(),
+            "--json",
+            "assets,name,url",
+        ]
+        result = subprocess.run(command, capture_output=True, text=True, check=True)
+        response = json.loads(result.stdout)
+        all_assets.extend(response["assets"])
+
     with open("repo/assets.json", "w") as f:
-        for line in lines:
-            command = [
-                "gh",
-                "release",
-                "view",
-                "--repo",
-                line.strip(),
-                "--json",
-                "assets,name,url",
-            ]
-            result = subprocess.run(command, capture_output=True, text=True, check=True)
-            f.write(result.stdout)
-            f.write("\n")
+        json.dump(all_assets, f, indent=2)
 
 
 def download_file(url, filename, token):
@@ -50,7 +55,11 @@ def main():
 
         assets = json.load(f)
 
-    for asset in assets["assets"]:
+    for asset in assets:
+        filepath = os.path.join("repo", asset["name"])
+        if os.path.exists(filepath):
+            print(f"Skipping:     {asset['name']} (already exists)")
+            continue
         print(f"Downloading: {asset['name']}...")
         download_file(asset["url"], asset["name"], token)
         print(f"Done:        {asset['name']}")

@@ -2,8 +2,8 @@ project:
   type: website
   output-dir: _build
   pre-render: 
-    - generate.py
-    - cleanup.py
+    - scripts/generate.py
+    - scripts/cleanup.py
   resources:
   - index.json
   
@@ -22,6 +22,7 @@ format:
   html:
     theme: 
       - cosmo
+      - assets/stylesheets/theme.scss
       - assets/stylesheets/extensions.scss
     css: styles.css
     toc: true

@@ -1,0 +1,70 @@
+:::: {.grid .text-center .list}
+
+<% for (const item of items) { %>
+
+:::: {.g-col-12 .g-col-lg-12 .g-col-xl-6 <%= metadataAttrs(item) %>}
+
+:::: {.quarto-grid-item .card .h-100  .hovercard-extension}
+
+:::: {.card-body .post-contents}
+
+
+```{=html}
+<div class="extension-list">
+
+<div class="extension-item">
+  <h3><a href="<%- item.website %>"><%= item.title %></a></h3>
+  <div class="card-text"><div class="listing-description"><p class="tagline"><%= item.tagline %></p></div></div>
+  
+  <div class="metadata">
+    <span class="maintainer"><%= item.maintainer %></span>
+    <br>
+    <span class="version">Version: <%= item.version %></span>
+  </div>
+
+  <div class="details">
+    
+    <% if (item.permissions) { %>
+      <div class="permissions">
+        <h5>Permissions:</h5>
+        <div class="listing-categories">
+            <% Object.entries(item.permissions).forEach(([key, value]) => { %>
+              <div class="listing-category" title="<%= value %>"><%= key %></div>
+              <!-- <li></li><strong><%= key %>:</strong> <%= value %></li> -->
+              <% }) %>
+          </div>
+        </div>
+        <% } %>
+    
+        <% if (item.tags && item.tags.length) { %>
+      <div class="tags">
+        <% item.tags.forEach(tag => { %>
+          <span class="tag"><%= tag %></span>
+        <% }) %>
+      </div>
+    <% } %>
+        
+    <% if (item.releases) { %>
+      <div class="platforms">
+        <h4>Available Platforms:</h4>
+        <div class="listing-categories">
+          <% item.releases.forEach(release => { %>
+              <!-- <div class="listing-category"><a href="<%- release.url %>"><%= release.platform %></a></div> -->
+              <div class="listing-category"><a href="<%- release.url %>?repository=bradyajohnston_github_io&blender_version_min=<%- item.blender_version_min %>&platforms=<%- release.platform %>"><%= release.platform %></a></div>
+          <% }) %>
+      </div>
+      </div>
+    <% } %>
+  </div>
+</div>
+</div>
+
+```
+::::
+
+::::
+
+::::
+<% } %>
+
+::::

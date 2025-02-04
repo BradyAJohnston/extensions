@@ -1,7 +1,7 @@
 ---
 title: "Personal Extension Repo"
 listing:
-  template: custom.ejs
+  template: assets/ejs/custom.ejs
   id: addon-listing
   type: grid
   grid-columns: 2
@@ -19,7 +19,7 @@ You can add this repo with the following url:
 https://bradyajohnston.github.io/extensions/index.json
 ```
 
-![](https://imgur.com/3dpyoDN.mp4)
+<!-- ![](https://imgur.com/3dpyoDN.mp4) -->
 
 ::: {#addon-listings}
 :::

@@ -8,7 +8,7 @@ with open("repo/assets.json", "r") as f:
     assets_data = json.load(f)
 
 # Create a mapping of filenames to download URLs from assets.json
-url_map = {asset["name"]: asset["url"] for asset in assets_data["assets"]}
+url_map = {asset["name"]: asset["url"] for asset in assets_data}
 
 # Update URLs in index.json data
 for item in index_data["data"]:
