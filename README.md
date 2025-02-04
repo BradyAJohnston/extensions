@@ -1,13 +1,12 @@
-# extension
-My own personal repo for distributing Blender extensions, for potential testing and bug fixing.
+# Host your own Blender Extensions website
 
-This is an experiment in self-hosting a Blender extensions repo, using the released assets from different GitHub repos as the download files. 
+This is an experiment in hosting a [Blender Extensions](https://docs.blender.org/manual/en/latest/advanced/extensions/creating_repository/index.html) website, built via GitHub actions and distributed using GitHub pages and GitHub release downloads for file hosting.
 
-Assets are sourced from repos listed in [source.txt](https://github.com/BradyAJohnston/extensions/blob/main/repo/source.txt)
+From a simple list of repos to check, all uploaded release assets are found and used to build an `index.json`, which enables a user to subscribe and download extensions from within Blender.
 
-Rebuilt by GHA on every push. 
+This is intended for distributing development builds of add-ons, or add-ons which don't meet the [rules](https://extensions.blender.org/terms-of-service/) for distribution via the Extensions platform.
 
-Downloads are currently slow inside of Blender because GH might rate-limit without a token.
+All downloads are just links to the already hosted release files that are available from GitHub repos already, drastically reducing bandwidth requirements for GitHub pages websites.
 
 ## Building Locally
 
