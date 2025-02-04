@@ -6,7 +6,7 @@ import subprocess
 def source_gh_release_info():
     import json
 
-    with open("repo/source.txt", "r") as f:
+    with open("source.txt", "r") as f:
         lines = f.readlines()
 
     all_assets = []
@@ -28,8 +28,10 @@ def source_gh_release_info():
         json.dump(all_assets, f, indent=2)
 
 
-def download_file(url, filename, token):
-    headers = {"Authorization": f"token {token}", "Accept": "application/octet-stream"}
+def download_file(url, filename, token=None):
+    headers = {"Accept": "application/octet-stream"}
+    if token:
+        headers["Authorization"] = f"token {token}"
     response = requests.get(url, headers=headers, stream=True)
     response.raise_for_status()
 
@@ -42,8 +44,6 @@ def download_file(url, filename, token):
 
 def main():
     token = os.getenv("GITHUB_TOKEN")
-    if not token:
-        raise ValueError("Please set GITHUB_TOKEN environment variable")
 
     if not os.path.exists("repo"):
         os.makedirs("repo")
