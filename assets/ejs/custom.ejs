@@ -26,21 +26,28 @@
     
     <% if (item.permissions) { %>
       <div class="permissions">
-        <h5>Permissions:</h5>
-        <div class="listing-categories">
+        <h4>Permissions:</h4>
+        <div class="listing-permissions">
+          <div class="listing-categories">
             <% Object.entries(item.permissions).forEach(([key, value]) => { %>
               <div class="listing-category" title="<%= value %>"><%= key %></div>
               <!-- <li></li><strong><%= key %>:</strong> <%= value %></li> -->
               <% }) %>
+            </div>
           </div>
         </div>
         <% } %>
-    
+        
         <% if (item.tags && item.tags.length) { %>
-      <div class="tags">
+          <div class="tags">
+        <h4>Tags:</h4>
+        <div class="listing-tags">
+        <div class="listing-categories">
         <% item.tags.forEach(tag => { %>
-          <span class="tag"><%= tag %></span>
-        <% }) %>
+          <div class="listing-category"><%= tag %></div>
+          <% }) %>
+      </div>
+      </div>
       </div>
     <% } %>
         
