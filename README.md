@@ -4,7 +4,7 @@ This is an experiment in hosting a [Blender Extensions](https://docs.blender.org
 
 From a simple list of repos to check, all uploaded release assets are found and used to build an `index.json`, which enables a user to subscribe and download extensions from within Blender.
 
-This is intended for distributing development builds of add-ons, or add-ons which don't meet the [rules](https://extensions.blender.org/terms-of-service/) for distribution via the Extensions platform.
+This is intended for distributing development builds of add-ons, or add-ons which don't meet the [rules](https://extensions.blender.org/terms-of-service/) for distribution via the Blender-hosted Extensions platform.
 
 All downloads are just links to the already hosted release files that are available from GitHub repos already, drastically reducing bandwidth requirements for GitHub pages websites.
 
