@@ -2,8 +2,8 @@ project:
   type: website
   output-dir: _build
   pre-render: 
-    - scripts/generate.py
     - scripts/cleanup.py
+    - scripts/generate.py
   resources:
   - index.json
   

@@ -1,7 +1,7 @@
 import json
 import yaml
 
-with open("repo/index.json", "r") as f:
+with open("index.json", "r") as f:
     data = json.load(f)
 
 info = []

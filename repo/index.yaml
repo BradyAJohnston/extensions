@@ -7,13 +7,13 @@
     network: Downloading structural data from the PDB and AFPDB
   releases:
   - platform: windows-x64
-    url: ./molecularnodes-4.2.11-windows_x64.zip
+    url: https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.2.11/molecularnodes-4.2.11-windows_x64.zip
   - platform: linux-x64
-    url: ./molecularnodes-4.2.11-linux_x64.zip
+    url: https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.2.11/molecularnodes-4.2.11-linux_x64.zip
   - platform: macos-x64
-    url: ./molecularnodes-4.2.11-macos_x64.zip
+    url: https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.2.11/molecularnodes-4.2.11-macos_x64.zip
   - platform: macos-arm64
-    url: ./molecularnodes-4.2.11-macos_arm64.zip
+    url: https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.2.11/molecularnodes-4.2.11-macos_arm64.zip
   tagline: A toolbox for molecular import and animation in Blender
   tags:
   - Geometry Nodes
@@ -29,13 +29,13 @@
     files: Importing data files from disk
   releases:
   - platform: macos-x64
-    url: ./csv_importer-0.1.6-macos_x64.zip
+    url: https://github.com/BradyAJohnston/blender_csv_import/releases/download/v0.1.6/csv_importer-0.1.6-macos_x64.zip
   - platform: macos-arm64
-    url: ./csv_importer-0.1.6-macos_arm64.zip
+    url: https://github.com/BradyAJohnston/blender_csv_import/releases/download/v0.1.6/csv_importer-0.1.6-macos_arm64.zip
   - platform: linux-x64
-    url: ./csv_importer-0.1.6-linux_x64.zip
+    url: https://github.com/BradyAJohnston/blender_csv_import/releases/download/v0.1.6/csv_importer-0.1.6-linux_x64.zip
   - platform: windows-x64
-    url: ./csv_importer-0.1.6-windows_x64.zip
+    url: https://github.com/BradyAJohnston/blender_csv_import/releases/download/v0.1.6/csv_importer-0.1.6-windows_x64.zip
   tagline: import csv data to meshes in Blender
   tags:
   - Geometry Nodes
