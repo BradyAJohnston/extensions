@@ -74,7 +74,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-7f87fece90f3c718d328ded471448896.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-80a6e63c79d218ef312def733ecde844.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -112,9 +112,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
 
     const options = {
-      valueNames: ['listing-description','listing-id','listing-maintainer','listing-permissions','listing-releases','listing-title','listing-version',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-blender_version_min','listing-description','listing-id','listing-maintainer','listing-permissions','listing-releases','listing-tagline','listing-tags','listing-title','listing-version','listing-website',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-description","listing-id","listing-maintainer","listing-permissions","listing-releases","listing-title","listing-version"],
+      searchColumns: ["listing-blender_version_min","listing-description","listing-id","listing-maintainer","listing-permissions","listing-releases","listing-tagline","listing-tags","listing-title","listing-version","listing-website"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -227,7 +227,7 @@ window.Quarto = {
 <p>Assets are sourced from repos listed in <a href="https://github.com/BradyAJohnston/extensions/blob/main/repo/source.txt">source.txt</a></p>
 <p>You can add this repo with the following url:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">https://bradyajohnston.github.io/extensions/index.json</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><video src="https://imgur.com/3dpyoDN.mp4" class="img-fluid" controls=""><a href="https://imgur.com/3dpyoDN.mp4">Video</a></video></p>
+<!-- ![](https://imgur.com/3dpyoDN.mp4) -->
 <div id="addon-listings">
 
 </div>
@@ -238,55 +238,138 @@ window.Quarto = {
 <div class="quarto-listing quarto-listing-container-custom" id="listing-addon-listing">
 <div class="grid text-center list">
 <div class="g-col-12 g-col-lg-12 g-col-xl-6" data-index="0">
-<div class="quarto-grid-item card h-100 card-center hovercard-extension">
+<div class="quarto-grid-item card h-100 hovercard-extension">
+<div class="card-body post-contents">
 <div class="extension-list">
 
-  <div class="extension-item">
-    <h3 class="anchored"><a href="">Molecular Nodes</a></h3>
-    <p class="tagline"></p>
-    
-    <div class="metadata">
-      <span class="version">Version: 4.2.11</span>
-      <span class="maintainer">By: Brady Johnston<brady.johnston@me.com></brady.johnston@me.com></span>
-    </div>
-
-    <div class="details">
-      
-
-      
-        <div class="permissions">
-          <h4 class="anchored">Permissions:</h4>
-          <ul>
-            
-              <li><strong>files:</strong> Importing data files from disk and caching downloads</li>
-            
-              <li><strong>network:</strong> Downloading structural data from the PDB and AFPDB</li>
-            
-          </ul>
-        </div>
-      
-
-      
-        <div class="platforms">
-          <h4 class="anchored">Available Platforms:</h4>
-          <ul>
-            
-              <li><a href="./molecularnodes-4.2.11-windows_x64.zip">windows-x64</a></li>
-            
-              <li><a href="./molecularnodes-4.2.11-linux_x64.zip">linux-x64</a></li>
-            
-              <li><a href="./molecularnodes-4.2.11-macos_x64.zip">macos-x64</a></li>
-            
-              <li><a href="./molecularnodes-4.2.11-macos_arm64.zip">macos-arm64</a></li>
-            
-          </ul>
-        </div>
-      
-    </div>
+<div class="extension-item">
+  <h3 class="anchored"><a href="https://bradyajohnston.github.io/MolecularNodes">Molecular Nodes</a></h3>
+  <div class="card-text"><div class="listing-description"><p class="tagline">A toolbox for molecular import and animation in Blender</p></div></div>
+  
+  <div class="metadata">
+    <span class="maintainer">Brady Johnston<brady.johnston@me.com></brady.johnston@me.com></span>
+    <br>
+    <span class="version">Version: 4.2.11</span>
   </div>
 
+  <div class="details">
+    
+    
+      <div class="permissions">
+        <h5 class="anchored">Permissions:</h5>
+        <div class="listing-categories">
+            
+              <div class="listing-category" title="Importing data files from disk and caching downloads">files</div>
+              <!-- <li></li><strong>files:</strong> Importing data files from disk and caching downloads</li> -->
+              
+              <div class="listing-category" title="Downloading structural data from the PDB and AFPDB">network</div>
+              <!-- <li></li><strong>network:</strong> Downloading structural data from the PDB and AFPDB</li> -->
+              
+          </div>
+        </div>
+        
+    
+        
+      <div class="tags">
+        
+          <span class="tag">Geometry Nodes</span>
+        
+          <span class="tag">Import-Export</span>
+        
+      </div>
+    
+        
+    
+      <div class="platforms">
+        <h4 class="anchored">Available Platforms:</h4>
+        <div class="listing-categories">
+          
+              <!-- <div class="listing-category"><a href="./molecularnodes-4.2.11-windows_x64.zip">windows-x64</a></div> -->
+              <div class="listing-category"><a href="./molecularnodes-4.2.11-windows_x64.zip?repository=bradyajohnston_github_io&amp;blender_version_min=4.2.0&amp;platforms=windows-x64">windows-x64</a></div>
+          
+              <!-- <div class="listing-category"><a href="./molecularnodes-4.2.11-linux_x64.zip">linux-x64</a></div> -->
+              <div class="listing-category"><a href="./molecularnodes-4.2.11-linux_x64.zip?repository=bradyajohnston_github_io&amp;blender_version_min=4.2.0&amp;platforms=linux-x64">linux-x64</a></div>
+          
+              <!-- <div class="listing-category"><a href="./molecularnodes-4.2.11-macos_x64.zip">macos-x64</a></div> -->
+              <div class="listing-category"><a href="./molecularnodes-4.2.11-macos_x64.zip?repository=bradyajohnston_github_io&amp;blender_version_min=4.2.0&amp;platforms=macos-x64">macos-x64</a></div>
+          
+              <!-- <div class="listing-category"><a href="./molecularnodes-4.2.11-macos_arm64.zip">macos-arm64</a></div> -->
+              <div class="listing-category"><a href="./molecularnodes-4.2.11-macos_arm64.zip?repository=bradyajohnston_github_io&amp;blender_version_min=4.2.0&amp;platforms=macos-arm64">macos-arm64</a></div>
+          
+      </div>
+      </div>
+    
+  </div>
+</div>
 </div>
 
+</div>
+</div>
+</div>
+<div class="g-col-12 g-col-lg-12 g-col-xl-6" data-index="1">
+<div class="quarto-grid-item card h-100 hovercard-extension">
+<div class="card-body post-contents">
+<div class="extension-list">
+
+<div class="extension-item">
+  <h3 class="anchored"><a href="https://github.com/kolibril13/blender_csv_import">CSV Importer</a></h3>
+  <div class="card-text"><div class="listing-description"><p class="tagline">import csv data to meshes in Blender</p></div></div>
+  
+  <div class="metadata">
+    <span class="maintainer">Jan-Hendrik Müller<jan-hendrik.mueller@uni-goettingen.de></jan-hendrik.mueller@uni-goettingen.de></span>
+    <br>
+    <span class="version">Version: 0.1.6</span>
+  </div>
+
+  <div class="details">
+    
+    
+      <div class="permissions">
+        <h5 class="anchored">Permissions:</h5>
+        <div class="listing-categories">
+            
+              <div class="listing-category" title="Importing data files from disk">files</div>
+              <!-- <li></li><strong>files:</strong> Importing data files from disk</li> -->
+              
+          </div>
+        </div>
+        
+    
+        
+      <div class="tags">
+        
+          <span class="tag">Geometry Nodes</span>
+        
+          <span class="tag">Import-Export</span>
+        
+      </div>
+    
+        
+    
+      <div class="platforms">
+        <h4 class="anchored">Available Platforms:</h4>
+        <div class="listing-categories">
+          
+              <!-- <div class="listing-category"><a href="./csv_importer-0.1.6-macos_x64.zip">macos-x64</a></div> -->
+              <div class="listing-category"><a href="./csv_importer-0.1.6-macos_x64.zip?repository=bradyajohnston_github_io&amp;blender_version_min=4.2.5&amp;platforms=macos-x64">macos-x64</a></div>
+          
+              <!-- <div class="listing-category"><a href="./csv_importer-0.1.6-macos_arm64.zip">macos-arm64</a></div> -->
+              <div class="listing-category"><a href="./csv_importer-0.1.6-macos_arm64.zip?repository=bradyajohnston_github_io&amp;blender_version_min=4.2.5&amp;platforms=macos-arm64">macos-arm64</a></div>
+          
+              <!-- <div class="listing-category"><a href="./csv_importer-0.1.6-linux_x64.zip">linux-x64</a></div> -->
+              <div class="listing-category"><a href="./csv_importer-0.1.6-linux_x64.zip?repository=bradyajohnston_github_io&amp;blender_version_min=4.2.5&amp;platforms=linux-x64">linux-x64</a></div>
+          
+              <!-- <div class="listing-category"><a href="./csv_importer-0.1.6-windows_x64.zip">windows-x64</a></div> -->
+              <div class="listing-category"><a href="./csv_importer-0.1.6-windows_x64.zip?repository=bradyajohnston_github_io&amp;blender_version_min=4.2.5&amp;platforms=windows-x64">windows-x64</a></div>
+          
+      </div>
+      </div>
+    
+  </div>
+</div>
+</div>
+
+</div>
 </div>
 </div>
 </div>
