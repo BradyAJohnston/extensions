@@ -269,6 +269,38 @@
       "archive_url": "./csv_importer-0.1.6-windows_x64.zip",
       "archive_size": 31762441,
       "archive_hash": "sha256:15d1b3a3d81c0218503096f5d22c01e6289c204c3d750dfda82213a6eb8e1b9f"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "warbler",
+      "name": "warbler",
+      "tagline": "Interactive GPU simulations",
+      "version": "0.0.6",
+      "type": "add-on",
+      "maintainer": "Brady Johnston <brady.johnston@me.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "website": "https://bradyajohnston.github.io/warbler",
+      "permissions": {
+        "files": "Saving cached simulations to disk"
+      },
+      "tags": [
+        "3D View",
+        "Animation",
+        "Bake",
+        "Physics"
+      ],
+      "platforms": [
+        "windows-x64"
+      ],
+      "python_versions": [
+        "3"
+      ],
+      "archive_url": "./warbler-0.0.6-windows_x64.zip",
+      "archive_size": 109575897,
+      "archive_hash": "sha256:fafbac5b8fed79f99e26e4946ed52100a29aa1ad49db74c47c119ebc89301dc8"
     }
   ]
 }
