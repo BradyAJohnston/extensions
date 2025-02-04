@@ -25,3 +25,56 @@ uv run --with requests scripts/download.py
 blender --command extension server-generate --repo-dir=repo
 uv run --with pyyaml quarto render
 ```
+
+## Building via GitHub Actions
+
+Using GHA we can automatically build and update the website. The example workflow builds at least once each day, or on every push.
+
+Using `bradyajohnston/setup-blender` we get an installation of Blender aliased to `blender` for our platform. We can then run the independent steps of downloading files, building `index.json` and then building and publishing the site with Quarto.
+
+```yml
+name: Download Release Files
+
+on:
+  push:
+    branches: ["main"]
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  build-website:
+    runs-on: macos-14
+    permissions: write-all
+    steps:
+      - uses: actions/checkout@v4
+      - uses: quarto-dev/quarto-actions/setup@v2
+      - uses: bradyajohnston/setup-blender@v2.1
+        with: 
+          version: 4.3.2
+      - name: Install uv
+        uses: astral-sh/setup-uv@v4
+        with:
+            version: "latest"
+    
+      - name: Get Release Assets
+        run: |
+          uv run --with requests scripts/download.py
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: Generate index.json
+        run: |
+            blender --command extension server-generate --repo-dir=repo
+    
+      - name: Quarto Render
+        run: |
+          uv run --with pyyaml quarto render
+    
+      - name: Publish to GitHub Pages (and render)
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+            target: gh-pages
+            path: .
+            render: false
+        env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
