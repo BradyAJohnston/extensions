@@ -1,15 +1,15 @@
 :::: {.grid .text-center .list}
 
 <% for (const item of items) { %>
-
+  
 :::: {.g-col-12 .g-col-lg-12 .g-col-xl-6 <%= metadataAttrs(item) %>}
 
 :::: {.quarto-grid-item .card .h-100  .hovercard-extension}
 
 :::: {.card-body .post-contents}
-
-
+  
 ```{=html}
+
 <div class="extension-list">
 
 <div class="extension-item">
@@ -50,7 +50,7 @@
         <div class="listing-categories">
           <% item.releases.forEach(release => { %>
               <!-- <div class="listing-category"><a href="<%- release.url %>"><%= release.platform %></a></div> -->
-              <div class="listing-category"><a href="<%- release.url %>?repository=bradyajohnston_github_io&blender_version_min=<%- item.blender_version_min %>&platforms=<%- release.platform %>"><%= release.platform %></a></div>
+              <div class="listing-category"><a href="<%- release.url %>?repository=https://bradyajohnston.github.io/extensions/index.json&blender_version_min=<%- item.blender_version_min %>&platforms=<%- release.platform %>"><%= release.platform %></a></div>
           <% }) %>
       </div>
       </div>
