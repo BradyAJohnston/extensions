@@ -4,6 +4,72 @@
   "data": [
     {
       "schema_version": "1.0.0",
+      "id": "microscopynodes",
+      "name": "Microscopy Nodes",
+      "tagline": "Handling microscopy data in Blender, up to 5D volumes",
+      "version": "2.2.0",
+      "type": "add-on",
+      "maintainer": "Oane Gros <oane.gros@embl.de>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.4.0",
+      "website": "https://oanegros.github.io/MicroscopyNodes/",
+      "copyright": [
+        "2023-2025 Oane Gros"
+      ],
+      "permissions": {
+        "files": "Importing data files from disk, writing to cache folder",
+        "network": "Loading OME-zarr files from the internet from a given URL"
+      },
+      "tags": [
+        "Import-Export"
+      ],
+      "platforms": [
+        "macos-x64"
+      ],
+      "python_versions": [
+        "3.11"
+      ],
+      "archive_url": "https://github.com/oanegros/MicroscopyNodes/releases/download/v2.2.0-beta.3/microscopynodes-2.2.0-macos_x64.zip",
+      "archive_size": 92651448,
+      "archive_hash": "sha256:268a0222143d1cbded272d19267cfd2435f98034875ebfe941a03bdfc74a60d7"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "microscopynodes",
+      "name": "Microscopy Nodes",
+      "tagline": "Handling microscopy data in Blender, up to 5D volumes",
+      "version": "2.2.0",
+      "type": "add-on",
+      "maintainer": "Oane Gros <oane.gros@embl.de>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.4.0",
+      "website": "https://oanegros.github.io/MicroscopyNodes/",
+      "copyright": [
+        "2023-2025 Oane Gros"
+      ],
+      "permissions": {
+        "files": "Importing data files from disk, writing to cache folder",
+        "network": "Loading OME-zarr files from the internet from a given URL"
+      },
+      "tags": [
+        "Import-Export"
+      ],
+      "platforms": [
+        "linux-x64"
+      ],
+      "python_versions": [
+        "3.11"
+      ],
+      "archive_url": "https://github.com/oanegros/MicroscopyNodes/releases/download/v2.2.0-beta.3/microscopynodes-2.2.0-linux_x64.zip",
+      "archive_size": 129789607,
+      "archive_hash": "sha256:9a047dfab91d9da4d2f28b02bf6476be2f59bc7e48b06c9191341713ced71007"
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "csv_importer",
       "name": "CSV Importer",
       "tagline": "import csv data to meshes in Blender",
@@ -34,39 +100,6 @@
       "archive_url": "https://github.com/BradyAJohnston/blender_csv_import/releases/download/v0.1.6/csv_importer-0.1.6-macos_x64.zip",
       "archive_size": 31047842,
       "archive_hash": "sha256:c03e68d8671b781c06d08947cb27c55f58d1e335c9a7a666b872ec1b09175e15"
-    },
-    {
-      "schema_version": "1.0.0",
-      "id": "microscopynodes",
-      "name": "Microscopy Nodes",
-      "tagline": "Handling microscopy data in Blender, up to 5D volumes",
-      "version": "2.1.1",
-      "type": "add-on",
-      "maintainer": "Oane Gros <oane.gros@embl.de>",
-      "license": [
-        "SPDX:GPL-3.0-or-later"
-      ],
-      "blender_version_min": "4.4.0",
-      "website": "https://oanegros.github.io/MicroscopyNodes/",
-      "copyright": [
-        "2023-2025 Oane Gros"
-      ],
-      "permissions": {
-        "files": "Importing data files from disk, writing to cache folder",
-        "network": "Loading OME-zarr files from the internet from a given URL"
-      },
-      "tags": [
-        "Import-Export"
-      ],
-      "platforms": [
-        "macos-x64"
-      ],
-      "python_versions": [
-        "3.11"
-      ],
-      "archive_url": "https://github.com/oanegros/MicroscopyNodes/releases/download/v2.1.1/microscopynodes-2.1.1-macos_x64.zip",
-      "archive_size": 77727173,
-      "archive_hash": "sha256:e6bc1280dce7340174782796df259aeb8cd4628a2c81240a1c7c29f0010effcd"
     },
     {
       "schema_version": "1.0.0",
@@ -139,7 +172,7 @@
       "id": "microscopynodes",
       "name": "Microscopy Nodes",
       "tagline": "Handling microscopy data in Blender, up to 5D volumes",
-      "version": "2.1.1",
+      "version": "2.2.0",
       "type": "add-on",
       "maintainer": "Oane Gros <oane.gros@embl.de>",
       "license": [
@@ -163,42 +196,9 @@
       "python_versions": [
         "3.11"
       ],
-      "archive_url": "https://github.com/oanegros/MicroscopyNodes/releases/download/v2.1.1/microscopynodes-2.1.1-windows_x64.zip",
-      "archive_size": 100078174,
-      "archive_hash": "sha256:a7061ba891f358288bdc4249f1db1487d681d5f6b9aa7b60f2922fb3044ebda4"
-    },
-    {
-      "schema_version": "1.0.0",
-      "id": "microscopynodes",
-      "name": "Microscopy Nodes",
-      "tagline": "Handling microscopy data in Blender, up to 5D volumes",
-      "version": "2.1.1",
-      "type": "add-on",
-      "maintainer": "Oane Gros <oane.gros@embl.de>",
-      "license": [
-        "SPDX:GPL-3.0-or-later"
-      ],
-      "blender_version_min": "4.4.0",
-      "website": "https://oanegros.github.io/MicroscopyNodes/",
-      "copyright": [
-        "2023-2025 Oane Gros"
-      ],
-      "permissions": {
-        "files": "Importing data files from disk, writing to cache folder",
-        "network": "Loading OME-zarr files from the internet from a given URL"
-      },
-      "tags": [
-        "Import-Export"
-      ],
-      "platforms": [
-        "linux-x64"
-      ],
-      "python_versions": [
-        "3.11"
-      ],
-      "archive_url": "https://github.com/oanegros/MicroscopyNodes/releases/download/v2.1.1/microscopynodes-2.1.1-linux_x64.zip",
-      "archive_size": 114631484,
-      "archive_hash": "sha256:f5cf86280897a43f5e879ffe543a8b33e0873a984e8be4d78ddc60b2e500ae8c"
+      "archive_url": "https://github.com/oanegros/MicroscopyNodes/releases/download/v2.2.0-beta.3/microscopynodes-2.2.0-windows_x64.zip",
+      "archive_size": 115084695,
+      "archive_hash": "sha256:5c11470c9d1ca435c71acf563573f2e71e8658086f9f5978c4bf328a618b56f7"
     },
     {
       "schema_version": "1.0.0",
@@ -340,7 +340,7 @@
       "id": "microscopynodes",
       "name": "Microscopy Nodes",
       "tagline": "Handling microscopy data in Blender, up to 5D volumes",
-      "version": "2.1.1",
+      "version": "2.2.0",
       "type": "add-on",
       "maintainer": "Oane Gros <oane.gros@embl.de>",
       "license": [
@@ -364,9 +364,9 @@
       "python_versions": [
         "3.11"
       ],
-      "archive_url": "https://github.com/oanegros/MicroscopyNodes/releases/download/v2.1.1/microscopynodes-2.1.1-macos_arm64.zip",
-      "archive_size": 65333316,
-      "archive_hash": "sha256:ce69c388db3f003a7a3661569fb8bd02f7f02c998987898fb5100a0fa3740feb"
+      "archive_url": "https://github.com/oanegros/MicroscopyNodes/releases/download/v2.2.0-beta.3/microscopynodes-2.2.0-macos_arm64.zip",
+      "archive_size": 80216861,
+      "archive_hash": "sha256:d85850bb9042c05748856b7675d7b15a574020fc5c16a09ce7d8c34b0a67496b"
     },
     {
       "schema_version": "1.0.0",
