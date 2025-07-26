@@ -65,7 +65,7 @@
       "python_versions": [
         "3.11"
       ],
-      "archive_url": "https://github.com/oanegros/MicroscopyNodes/releases/download/v2.2.1/microscopynodes-2.2.1-windows_x64.zip",
+      "archive_url": "https://github.com/aafkegros/MicroscopyNodes/releases/download/v2.2.1/microscopynodes-2.2.1-windows_x64.zip",
       "archive_size": 107408664,
       "archive_hash": "sha256:485fa4c6600f4becf3eeb13c455cd5168f8887f6b4df03da95eaaa459026f3c8"
     },
@@ -299,7 +299,7 @@
       "python_versions": [
         "3.11"
       ],
-      "archive_url": "https://github.com/oanegros/MicroscopyNodes/releases/download/v2.2.1/microscopynodes-2.2.1-macos_arm64.zip",
+      "archive_url": "https://github.com/aafkegros/MicroscopyNodes/releases/download/v2.2.1/microscopynodes-2.2.1-macos_arm64.zip",
       "archive_size": 83599083,
       "archive_hash": "sha256:805bf85974a04e1ccb66ecefd792d0bdc9905c0ae883deca60d16ff8e4b150d1"
     },
@@ -365,7 +365,7 @@
       "python_versions": [
         "3.11"
       ],
-      "archive_url": "https://github.com/oanegros/MicroscopyNodes/releases/download/v2.2.1/microscopynodes-2.2.1-macos_x64.zip",
+      "archive_url": "https://github.com/aafkegros/MicroscopyNodes/releases/download/v2.2.1/microscopynodes-2.2.1-macos_x64.zip",
       "archive_size": 96586046,
       "archive_hash": "sha256:f4cc3c6b352b8fe06dda3244f7c5ba4bd27279b60e572fcf6d8a53ba71fc9981"
     },
@@ -398,7 +398,7 @@
       "python_versions": [
         "3.11"
       ],
-      "archive_url": "https://github.com/oanegros/MicroscopyNodes/releases/download/v2.2.1/microscopynodes-2.2.1-linux_x64.zip",
+      "archive_url": "https://github.com/aafkegros/MicroscopyNodes/releases/download/v2.2.1/microscopynodes-2.2.1-linux_x64.zip",
       "archive_size": 135087520,
       "archive_hash": "sha256:e5b155cce99f8a9f8a009ec836613a2a405388fc6c55a198049b745a54c655a7"
     },
