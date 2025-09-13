@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.34">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -69,14 +69,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4e38469f82b1bd35e9314cb95b9dd7de.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-424f1cdbacbf19827e4b5ff16dd94769.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -148,7 +149,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -174,6 +175,8 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Extension Repo</span>
     </a>
@@ -228,7 +231,7 @@ window.Quarto = {
 <p>This is an experiment in self-hosting a Blender extensions repo, using the released assets from different GitHub repos as the download files.</p>
 <p>Assets are sourced from repos listed in <a href="https://github.com/BradyAJohnston/extensions/blob/main/repo/source.txt">source.txt</a></p>
 <p>You can add this repo with the following url:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">https://bradyajohnston.github.io/extensions/index.json</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">https://bradyajohnston.github.io/extensions/index.json</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div id="addon-listings">
 
 </div>
@@ -320,83 +323,6 @@ window.Quarto = {
 <div class="extension-list">
 
 <div class="extension-item">
-  <h3 class="anchored"><a href="https://bradyajohnston.github.io/MolecularNodes">Molecular Nodes</a></h3>
-  <div class="card-text"><div class="listing-description"><p class="tagline">A toolbox for molecular import and animation in Blender</p></div></div>
-  
-  <div class="metadata">
-    <span class="maintainer">Brady Johnston<brady.johnston@me.com></brady.johnston@me.com></span>
-    <br>
-    <span class="version">Version: 4.5.0</span>
-  </div>
-
-  <div class="details">
-    
-    
-      <div class="permissions">
-        <h4 class="anchored">Permissions:</h4>
-        <div class="listing-permissions">
-          <div class="listing-categories">
-            
-              <div class="listing-category" title="Importing data files from disk and caching downloads">files</div>
-              <!-- <li></li><strong>files:</strong> Importing data files from disk and caching downloads</li> -->
-              
-              <div class="listing-category" title="Downloading structural data from the PDB and AFPDB">network</div>
-              <!-- <li></li><strong>network:</strong> Downloading structural data from the PDB and AFPDB</li> -->
-              
-            </div>
-          </div>
-        </div>
-        
-        
-        
-          <div class="tags">
-        <h4 class="anchored">Tags:</h4>
-        <div class="listing-tags">
-        <div class="listing-categories">
-        
-          <div class="listing-category">Geometry Nodes</div>
-          
-          <div class="listing-category">Import-Export</div>
-          
-      </div>
-      </div>
-      </div>
-    
-        
-    
-      <div class="platforms">
-        <h4 class="anchored">Available Platforms:</h4>
-        <div class="listing-categories">
-          
-              <!-- <div class="listing-category"><a href="https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.5.0/molecularnodes-4.5.0-linux_x64.zip">linux-x64</a></div> -->
-              <div class="listing-category"><a href="https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.5.0/molecularnodes-4.5.0-linux_x64.zip?repository=https://bradyajohnston.github.io/extensions/index.json&amp;blender_version_min=4.5.0&amp;platforms=linux-x64">linux-x64</a></div>
-          
-              <!-- <div class="listing-category"><a href="https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.5.0/molecularnodes-4.5.0-macos_x64.zip">macos-x64</a></div> -->
-              <div class="listing-category"><a href="https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.5.0/molecularnodes-4.5.0-macos_x64.zip?repository=https://bradyajohnston.github.io/extensions/index.json&amp;blender_version_min=4.5.0&amp;platforms=macos-x64">macos-x64</a></div>
-          
-              <!-- <div class="listing-category"><a href="https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.5.0/molecularnodes-4.5.0-windows_x64.zip">windows-x64</a></div> -->
-              <div class="listing-category"><a href="https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.5.0/molecularnodes-4.5.0-windows_x64.zip?repository=https://bradyajohnston.github.io/extensions/index.json&amp;blender_version_min=4.5.0&amp;platforms=windows-x64">windows-x64</a></div>
-          
-              <!-- <div class="listing-category"><a href="https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.5.0/molecularnodes-4.5.0-macos_arm64.zip">macos-arm64</a></div> -->
-              <div class="listing-category"><a href="https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.5.0/molecularnodes-4.5.0-macos_arm64.zip?repository=https://bradyajohnston.github.io/extensions/index.json&amp;blender_version_min=4.5.0&amp;platforms=macos-arm64">macos-arm64</a></div>
-          
-      </div>
-      </div>
-    
-  </div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-<div class="g-col-12 g-col-lg-12 g-col-xl-6" data-index="2">
-<div class="quarto-grid-item card h-100 hovercard-extension">
-<div class="card-body post-contents">
-
-<div class="extension-list">
-
-<div class="extension-item">
   <h3 class="anchored"><a href="https://github.com/kolibril13/blender_csv_import">CSV Importer</a></h3>
   <div class="card-text"><div class="listing-description"><p class="tagline">import csv data to meshes in Blender</p></div></div>
   
@@ -453,6 +379,83 @@ window.Quarto = {
           
               <!-- <div class="listing-category"><a href="https://github.com/BradyAJohnston/blender_csv_import/releases/download/v0.1.6/csv_importer-0.1.6-windows_x64.zip">windows-x64</a></div> -->
               <div class="listing-category"><a href="https://github.com/BradyAJohnston/blender_csv_import/releases/download/v0.1.6/csv_importer-0.1.6-windows_x64.zip?repository=https://bradyajohnston.github.io/extensions/index.json&amp;blender_version_min=4.2.5&amp;platforms=windows-x64">windows-x64</a></div>
+          
+      </div>
+      </div>
+    
+  </div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class="g-col-12 g-col-lg-12 g-col-xl-6" data-index="2">
+<div class="quarto-grid-item card h-100 hovercard-extension">
+<div class="card-body post-contents">
+
+<div class="extension-list">
+
+<div class="extension-item">
+  <h3 class="anchored"><a href="https://bradyajohnston.github.io/MolecularNodes">Molecular Nodes</a></h3>
+  <div class="card-text"><div class="listing-description"><p class="tagline">A toolbox for molecular import and animation in Blender</p></div></div>
+  
+  <div class="metadata">
+    <span class="maintainer">Brady Johnston<brady.johnston@me.com></brady.johnston@me.com></span>
+    <br>
+    <span class="version">Version: 4.5.1</span>
+  </div>
+
+  <div class="details">
+    
+    
+      <div class="permissions">
+        <h4 class="anchored">Permissions:</h4>
+        <div class="listing-permissions">
+          <div class="listing-categories">
+            
+              <div class="listing-category" title="Importing data files from disk and caching downloads">files</div>
+              <!-- <li></li><strong>files:</strong> Importing data files from disk and caching downloads</li> -->
+              
+              <div class="listing-category" title="Downloading structural data from the PDB and AFPDB">network</div>
+              <!-- <li></li><strong>network:</strong> Downloading structural data from the PDB and AFPDB</li> -->
+              
+            </div>
+          </div>
+        </div>
+        
+        
+        
+          <div class="tags">
+        <h4 class="anchored">Tags:</h4>
+        <div class="listing-tags">
+        <div class="listing-categories">
+        
+          <div class="listing-category">Geometry Nodes</div>
+          
+          <div class="listing-category">Import-Export</div>
+          
+      </div>
+      </div>
+      </div>
+    
+        
+    
+      <div class="platforms">
+        <h4 class="anchored">Available Platforms:</h4>
+        <div class="listing-categories">
+          
+              <!-- <div class="listing-category"><a href="https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.5.1/molecularnodes-4.5.1-windows_x64.zip">windows-x64</a></div> -->
+              <div class="listing-category"><a href="https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.5.1/molecularnodes-4.5.1-windows_x64.zip?repository=https://bradyajohnston.github.io/extensions/index.json&amp;blender_version_min=4.5.0&amp;platforms=windows-x64">windows-x64</a></div>
+          
+              <!-- <div class="listing-category"><a href="https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.5.1/molecularnodes-4.5.1-macos_arm64.zip">macos-arm64</a></div> -->
+              <div class="listing-category"><a href="https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.5.1/molecularnodes-4.5.1-macos_arm64.zip?repository=https://bradyajohnston.github.io/extensions/index.json&amp;blender_version_min=4.5.0&amp;platforms=macos-arm64">macos-arm64</a></div>
+          
+              <!-- <div class="listing-category"><a href="https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.5.1/molecularnodes-4.5.1-linux_x64.zip">linux-x64</a></div> -->
+              <div class="listing-category"><a href="https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.5.1/molecularnodes-4.5.1-linux_x64.zip?repository=https://bradyajohnston.github.io/extensions/index.json&amp;blender_version_min=4.5.0&amp;platforms=linux-x64">linux-x64</a></div>
+          
+              <!-- <div class="listing-category"><a href="https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.5.1/molecularnodes-4.5.1-macos_x64.zip">macos-x64</a></div> -->
+              <div class="listing-category"><a href="https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.5.1/molecularnodes-4.5.1-macos_x64.zip?repository=https://bradyajohnston.github.io/extensions/index.json&amp;blender_version_min=4.5.0&amp;platforms=macos-x64">macos-x64</a></div>
           
       </div>
       </div>
@@ -587,13 +590,14 @@ window.Quarto = {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
