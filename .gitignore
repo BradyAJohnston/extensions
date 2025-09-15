@@ -5,3 +5,5 @@ repo/assets.json
 repo/index.json
 repo/index.yaml
 index.json
+
+**/*.quarto_ipynb
