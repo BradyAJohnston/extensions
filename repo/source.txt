@@ -1,4 +1,5 @@
 BradyAJohnston/MolecularNodes
 BradyAJohnston/blender_csv_import
 BradyAJohnston/warbler
-oanegros/MicroscopyNodes
+aafkegros/MicroscopyNodes
+kolibril13/blender_typst_importer
