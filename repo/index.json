@@ -7,7 +7,7 @@
       "id": "microscopynodes",
       "name": "Microscopy Nodes",
       "tagline": "Handling microscopy data in Blender, up to 5D volumes",
-      "version": "2.2.4",
+      "version": "2.2.5",
       "type": "add-on",
       "maintainer": "Aafke Gros <aafke.gros@embl.de>",
       "license": [
@@ -26,47 +26,14 @@
         "Import-Export"
       ],
       "platforms": [
-        "macos-x64"
+        "macos-arm64"
       ],
       "python_versions": [
         "3.11"
       ],
-      "archive_url": "./microscopynodes-2.2.4-macos_x64.zip",
-      "archive_size": 99169154,
-      "archive_hash": "sha256:fc9fa638ca87c03fd3946a703e457079b140373bf05b1f4eccf32a893cd2ca9f"
-    },
-    {
-      "schema_version": "1.0.0",
-      "id": "microscopynodes",
-      "name": "Microscopy Nodes",
-      "tagline": "Handling microscopy data in Blender, up to 5D volumes",
-      "version": "2.2.4",
-      "type": "add-on",
-      "maintainer": "Aafke Gros <aafke.gros@embl.de>",
-      "license": [
-        "SPDX:GPL-3.0-or-later"
-      ],
-      "blender_version_min": "4.4.0",
-      "website": "https://aafkegros.github.io/MicroscopyNodes/",
-      "copyright": [
-        "2023-2025 Aafke Gros"
-      ],
-      "permissions": {
-        "files": "Importing data files from disk, writing to cache folder",
-        "network": "Loading OME-zarr files from the internet from a given URL"
-      },
-      "tags": [
-        "Import-Export"
-      ],
-      "platforms": [
-        "linux-x64"
-      ],
-      "python_versions": [
-        "3.11"
-      ],
-      "archive_url": "./microscopynodes-2.2.4-linux_x64.zip",
-      "archive_size": 138705409,
-      "archive_hash": "sha256:c92f0d6d7ac7923357de62d2f89c1f32772bde0939dcd010c47e7bdd0c6d1b7b"
+      "archive_url": "./microscopynodes-2.2.5-macos_arm64.zip",
+      "archive_size": 35781251,
+      "archive_hash": "sha256:ec827be3ea50c933171ddcd05e88381231269017f69c70bbd354cd852f945b36"
     },
     {
       "schema_version": "1.0.0",
@@ -100,39 +67,6 @@
       "archive_url": "./csv_importer-0.1.6-macos_x64.zip",
       "archive_size": 31047842,
       "archive_hash": "sha256:c03e68d8671b781c06d08947cb27c55f58d1e335c9a7a666b872ec1b09175e15"
-    },
-    {
-      "schema_version": "1.0.0",
-      "id": "microscopynodes",
-      "name": "Microscopy Nodes",
-      "tagline": "Handling microscopy data in Blender, up to 5D volumes",
-      "version": "2.2.4",
-      "type": "add-on",
-      "maintainer": "Aafke Gros <aafke.gros@embl.de>",
-      "license": [
-        "SPDX:GPL-3.0-or-later"
-      ],
-      "blender_version_min": "4.4.0",
-      "website": "https://aafkegros.github.io/MicroscopyNodes/",
-      "copyright": [
-        "2023-2025 Aafke Gros"
-      ],
-      "permissions": {
-        "files": "Importing data files from disk, writing to cache folder",
-        "network": "Loading OME-zarr files from the internet from a given URL"
-      },
-      "tags": [
-        "Import-Export"
-      ],
-      "platforms": [
-        "macos-arm64"
-      ],
-      "python_versions": [
-        "3.11"
-      ],
-      "archive_url": "./microscopynodes-2.2.4-macos_arm64.zip",
-      "archive_size": 85719450,
-      "archive_hash": "sha256:fb04e05b617ea1e19ee95a0a4cc6c190d70090167a5ff46972f4757ccf263808"
     },
     {
       "schema_version": "1.0.0",
@@ -272,7 +206,7 @@
       "id": "microscopynodes",
       "name": "Microscopy Nodes",
       "tagline": "Handling microscopy data in Blender, up to 5D volumes",
-      "version": "2.2.4",
+      "version": "2.2.5",
       "type": "add-on",
       "maintainer": "Aafke Gros <aafke.gros@embl.de>",
       "license": [
@@ -296,9 +230,9 @@
       "python_versions": [
         "3.11"
       ],
-      "archive_url": "./microscopynodes-2.2.4-windows_x64.zip",
-      "archive_size": 112191606,
-      "archive_hash": "sha256:8e3b089c190a57ad2fb32f0d5e1f69027769500344011fe24d75f10a20dca5f4"
+      "archive_url": "./microscopynodes-2.2.5-windows_x64.zip",
+      "archive_size": 49000958,
+      "archive_hash": "sha256:62d2946bffb62ecf9f7d7635cdeecd91d8d73bd10b54e34d9f8e1a1d87977f9d"
     },
     {
       "schema_version": "1.0.0",
@@ -503,6 +437,39 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "microscopynodes",
+      "name": "Microscopy Nodes",
+      "tagline": "Handling microscopy data in Blender, up to 5D volumes",
+      "version": "2.2.5",
+      "type": "add-on",
+      "maintainer": "Aafke Gros <aafke.gros@embl.de>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.4.0",
+      "website": "https://aafkegros.github.io/MicroscopyNodes/",
+      "copyright": [
+        "2023-2025 Aafke Gros"
+      ],
+      "permissions": {
+        "files": "Importing data files from disk, writing to cache folder",
+        "network": "Loading OME-zarr files from the internet from a given URL"
+      },
+      "tags": [
+        "Import-Export"
+      ],
+      "platforms": [
+        "macos-x64"
+      ],
+      "python_versions": [
+        "3.11"
+      ],
+      "archive_url": "./microscopynodes-2.2.5-macos_x64.zip",
+      "archive_size": 39179344,
+      "archive_hash": "sha256:992325599ac5230161e010cd985c55d61a5daef14ad6482b07e2f427b28dcdce"
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "typst_importer",
       "name": "Typst Importer",
       "tagline": "Render mathematical equations and code blocks",
@@ -533,6 +500,39 @@
       "archive_url": "./typst_importer-0.1.14-windows_x64.zip",
       "archive_size": 21302666,
       "archive_hash": "sha256:02cac2ec7164e03e81165a6fd8f3643eb31f8edb286692f743426f9b697be408"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "microscopynodes",
+      "name": "Microscopy Nodes",
+      "tagline": "Handling microscopy data in Blender, up to 5D volumes",
+      "version": "2.2.5",
+      "type": "add-on",
+      "maintainer": "Aafke Gros <aafke.gros@embl.de>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.4.0",
+      "website": "https://aafkegros.github.io/MicroscopyNodes/",
+      "copyright": [
+        "2023-2025 Aafke Gros"
+      ],
+      "permissions": {
+        "files": "Importing data files from disk, writing to cache folder",
+        "network": "Loading OME-zarr files from the internet from a given URL"
+      },
+      "tags": [
+        "Import-Export"
+      ],
+      "platforms": [
+        "linux-x64"
+      ],
+      "python_versions": [
+        "3.11"
+      ],
+      "archive_url": "./microscopynodes-2.2.5-linux_x64.zip",
+      "archive_size": 78189079,
+      "archive_hash": "sha256:91588f5c4a72f98dba3baa50b44109a18d625daed1236ee966c0757f160339b6"
     },
     {
       "schema_version": "1.0.0",
