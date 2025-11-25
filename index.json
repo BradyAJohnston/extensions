@@ -37,6 +37,74 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "molecularnodes",
+      "name": "Molecular Nodes",
+      "tagline": "A toolbox for molecular import and animation in Blender",
+      "version": "4.5.7",
+      "type": "add-on",
+      "maintainer": "Brady Johnston<brady.johnston@me.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.5.0",
+      "website": "https://bradyajohnston.github.io/MolecularNodes",
+      "copyright": [
+        "2022 Brady Johnston"
+      ],
+      "permissions": {
+        "network": "Downloading structural data from the PDB and AFPDB",
+        "files": "Importing data files from disk and caching downloads"
+      },
+      "tags": [
+        "Geometry Nodes",
+        "Import-Export"
+      ],
+      "platforms": [
+        "windows-x64"
+      ],
+      "python_versions": [
+        "3.11"
+      ],
+      "archive_url": "https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.5.7/molecularnodes-4.5.7-windows_x64.zip",
+      "archive_size": 130822896,
+      "archive_hash": "sha256:00580f3301cd719c6a4c2fb3260d6c5e7dafd35f9fe3cb1902232c320bf25afe"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "molecularnodes",
+      "name": "Molecular Nodes",
+      "tagline": "A toolbox for molecular import and animation in Blender",
+      "version": "4.5.7",
+      "type": "add-on",
+      "maintainer": "Brady Johnston<brady.johnston@me.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.5.0",
+      "website": "https://bradyajohnston.github.io/MolecularNodes",
+      "copyright": [
+        "2022 Brady Johnston"
+      ],
+      "permissions": {
+        "network": "Downloading structural data from the PDB and AFPDB",
+        "files": "Importing data files from disk and caching downloads"
+      },
+      "tags": [
+        "Geometry Nodes",
+        "Import-Export"
+      ],
+      "platforms": [
+        "macos-x64"
+      ],
+      "python_versions": [
+        "3.11"
+      ],
+      "archive_url": "https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.5.7/molecularnodes-4.5.7-macos_x64.zip",
+      "archive_size": 129263942,
+      "archive_hash": "sha256:2c241739fa499a8494882198db1a593453049ba54d8ec864100af326987159d4"
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "microscopynodes",
       "name": "Microscopy Nodes",
       "tagline": "Handling microscopy data in Blender, up to 5D volumes",
@@ -67,6 +135,40 @@
       "archive_url": "https://github.com/aafkegros/MicroscopyNodes/releases/download/v2.2.7/microscopynodes-2.2.7-linux_x64.zip",
       "archive_size": 78287606,
       "archive_hash": "sha256:7d3377063458c7a59a9267d7ce80b245d428ee5431c1712faea77b7b389e832e"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "molecularnodes",
+      "name": "Molecular Nodes",
+      "tagline": "A toolbox for molecular import and animation in Blender",
+      "version": "4.5.7",
+      "type": "add-on",
+      "maintainer": "Brady Johnston<brady.johnston@me.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.5.0",
+      "website": "https://bradyajohnston.github.io/MolecularNodes",
+      "copyright": [
+        "2022 Brady Johnston"
+      ],
+      "permissions": {
+        "network": "Downloading structural data from the PDB and AFPDB",
+        "files": "Importing data files from disk and caching downloads"
+      },
+      "tags": [
+        "Geometry Nodes",
+        "Import-Export"
+      ],
+      "platforms": [
+        "linux-x64"
+      ],
+      "python_versions": [
+        "3.11"
+      ],
+      "archive_url": "https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.5.7/molecularnodes-4.5.7-linux_x64.zip",
+      "archive_size": 160144112,
+      "archive_hash": "sha256:85389dc3800bba487bf7041438163ec6e216738af0c097c471b33293e1fb465d"
     },
     {
       "schema_version": "1.0.0",
@@ -235,40 +337,6 @@
     },
     {
       "schema_version": "1.0.0",
-      "id": "molecularnodes",
-      "name": "Molecular Nodes",
-      "tagline": "A toolbox for molecular import and animation in Blender",
-      "version": "4.5.6",
-      "type": "add-on",
-      "maintainer": "Brady Johnston<brady.johnston@me.com>",
-      "license": [
-        "SPDX:GPL-3.0-or-later"
-      ],
-      "blender_version_min": "4.5.0",
-      "website": "https://bradyajohnston.github.io/MolecularNodes",
-      "copyright": [
-        "2022 Brady Johnston"
-      ],
-      "permissions": {
-        "network": "Downloading structural data from the PDB and AFPDB",
-        "files": "Importing data files from disk and caching downloads"
-      },
-      "tags": [
-        "Geometry Nodes",
-        "Import-Export"
-      ],
-      "platforms": [
-        "windows-x64"
-      ],
-      "python_versions": [
-        "3.11"
-      ],
-      "archive_url": "https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.5.6/molecularnodes-4.5.6-windows_x64.zip",
-      "archive_size": 130822248,
-      "archive_hash": "sha256:7b64728f56174b28d0aebd29a8efbcbf5021d6efaf12cf2efffd32bc5485f14c"
-    },
-    {
-      "schema_version": "1.0.0",
       "id": "typst_importer",
       "name": "Typst Importer",
       "tagline": "Render mathematical equations and code blocks",
@@ -299,6 +367,40 @@
       "archive_url": "https://github.com/kolibril13/blender_typst_importer/releases/download/v0.2.1/typst_importer-0.2.1-windows_x64.zip",
       "archive_size": 25265970,
       "archive_hash": "sha256:7b543423ac671cdf9af721fb987a6723e25d5b8cd8baba29bb72df397e345773"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "molecularnodes",
+      "name": "Molecular Nodes",
+      "tagline": "A toolbox for molecular import and animation in Blender",
+      "version": "4.5.7",
+      "type": "add-on",
+      "maintainer": "Brady Johnston<brady.johnston@me.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.5.0",
+      "website": "https://bradyajohnston.github.io/MolecularNodes",
+      "copyright": [
+        "2022 Brady Johnston"
+      ],
+      "permissions": {
+        "network": "Downloading structural data from the PDB and AFPDB",
+        "files": "Importing data files from disk and caching downloads"
+      },
+      "tags": [
+        "Geometry Nodes",
+        "Import-Export"
+      ],
+      "platforms": [
+        "macos-arm64"
+      ],
+      "python_versions": [
+        "3.11"
+      ],
+      "archive_url": "https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.5.7/molecularnodes-4.5.7-macos_arm64.zip",
+      "archive_size": 119777655,
+      "archive_hash": "sha256:4a5dac9687c60b6808849bba7d8ca2b1d6fec919713166ce89d81942ece7be8c"
     },
     {
       "schema_version": "1.0.0",
@@ -368,74 +470,6 @@
     },
     {
       "schema_version": "1.0.0",
-      "id": "molecularnodes",
-      "name": "Molecular Nodes",
-      "tagline": "A toolbox for molecular import and animation in Blender",
-      "version": "4.5.6",
-      "type": "add-on",
-      "maintainer": "Brady Johnston<brady.johnston@me.com>",
-      "license": [
-        "SPDX:GPL-3.0-or-later"
-      ],
-      "blender_version_min": "4.5.0",
-      "website": "https://bradyajohnston.github.io/MolecularNodes",
-      "copyright": [
-        "2022 Brady Johnston"
-      ],
-      "permissions": {
-        "network": "Downloading structural data from the PDB and AFPDB",
-        "files": "Importing data files from disk and caching downloads"
-      },
-      "tags": [
-        "Geometry Nodes",
-        "Import-Export"
-      ],
-      "platforms": [
-        "macos-x64"
-      ],
-      "python_versions": [
-        "3.11"
-      ],
-      "archive_url": "https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.5.6/molecularnodes-4.5.6-macos_x64.zip",
-      "archive_size": 129263294,
-      "archive_hash": "sha256:990bed635fc46e52c0f6210cf237d7da585bb6318c40ed6c1d1c5a03ad3f23cd"
-    },
-    {
-      "schema_version": "1.0.0",
-      "id": "molecularnodes",
-      "name": "Molecular Nodes",
-      "tagline": "A toolbox for molecular import and animation in Blender",
-      "version": "4.5.6",
-      "type": "add-on",
-      "maintainer": "Brady Johnston<brady.johnston@me.com>",
-      "license": [
-        "SPDX:GPL-3.0-or-later"
-      ],
-      "blender_version_min": "4.5.0",
-      "website": "https://bradyajohnston.github.io/MolecularNodes",
-      "copyright": [
-        "2022 Brady Johnston"
-      ],
-      "permissions": {
-        "network": "Downloading structural data from the PDB and AFPDB",
-        "files": "Importing data files from disk and caching downloads"
-      },
-      "tags": [
-        "Geometry Nodes",
-        "Import-Export"
-      ],
-      "platforms": [
-        "linux-x64"
-      ],
-      "python_versions": [
-        "3.11"
-      ],
-      "archive_url": "https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.5.6/molecularnodes-4.5.6-linux_x64.zip",
-      "archive_size": 160143464,
-      "archive_hash": "sha256:802f143042445f66ed08cd96f9a6501e9e217e7dff2ec248b753cda1d9affd56"
-    },
-    {
-      "schema_version": "1.0.0",
       "id": "microscopynodes",
       "name": "Microscopy Nodes",
       "tagline": "Handling microscopy data in Blender, up to 5D volumes",
@@ -466,40 +500,6 @@
       "archive_url": "https://github.com/aafkegros/MicroscopyNodes/releases/download/v2.2.7/microscopynodes-2.2.7-macos_arm64.zip",
       "archive_size": 35887817,
       "archive_hash": "sha256:cab0826efb646cccf28d3ab05b632473db21218ecccda94cc94dce0e13fdff35"
-    },
-    {
-      "schema_version": "1.0.0",
-      "id": "molecularnodes",
-      "name": "Molecular Nodes",
-      "tagline": "A toolbox for molecular import and animation in Blender",
-      "version": "4.5.6",
-      "type": "add-on",
-      "maintainer": "Brady Johnston<brady.johnston@me.com>",
-      "license": [
-        "SPDX:GPL-3.0-or-later"
-      ],
-      "blender_version_min": "4.5.0",
-      "website": "https://bradyajohnston.github.io/MolecularNodes",
-      "copyright": [
-        "2022 Brady Johnston"
-      ],
-      "permissions": {
-        "network": "Downloading structural data from the PDB and AFPDB",
-        "files": "Importing data files from disk and caching downloads"
-      },
-      "tags": [
-        "Geometry Nodes",
-        "Import-Export"
-      ],
-      "platforms": [
-        "macos-arm64"
-      ],
-      "python_versions": [
-        "3.11"
-      ],
-      "archive_url": "https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.5.6/molecularnodes-4.5.6-macos_arm64.zip",
-      "archive_size": 119777007,
-      "archive_hash": "sha256:64c33bcbac352f31d53ceaa58230ccc921915c4ecfb8e34e3cf6f3b7fc6423ae"
     },
     {
       "schema_version": "1.0.0",
