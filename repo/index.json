@@ -4,39 +4,6 @@
   "data": [
     {
       "schema_version": "1.0.0",
-      "id": "typst_importer",
-      "name": "Typst Importer",
-      "tagline": "Render mathematical equations and code blocks",
-      "version": "0.2.1",
-      "type": "add-on",
-      "maintainer": "Jan-Hendrik M\u00fcller<jan-hendrik.mueller@uni-goettingen.de>",
-      "license": [
-        "SPDX:GPL-3.0-or-later"
-      ],
-      "blender_version_min": "4.2.0",
-      "website": "https://github.com/kolibril13/blender_typst_importer",
-      "copyright": [
-        "2025 Jan-Hendrik M\u00fcller"
-      ],
-      "permissions": {
-        "files": "Importing data files from disk"
-      },
-      "tags": [
-        "Geometry Nodes",
-        "Import-Export"
-      ],
-      "platforms": [
-        "macos-arm64"
-      ],
-      "python_versions": [
-        "3.11"
-      ],
-      "archive_url": "./typst_importer-0.2.1-macos_arm64.zip",
-      "archive_size": 31012869,
-      "archive_hash": "sha256:1a27df27596f18e06adb8c4def1eab322ba9f389af4b080a985d0125f6637b6c"
-    },
-    {
-      "schema_version": "1.0.0",
       "id": "microscopynodes",
       "name": "Microscopy Nodes",
       "tagline": "Handling microscopy data in Blender, up to 5D volumes",
@@ -167,6 +134,39 @@
       "archive_url": "./molecularnodes-4.5.9-linux_x64.zip",
       "archive_size": 160156076,
       "archive_hash": "sha256:648061ee808ae4bb605b37680f114c4cb81122bc1387b97783418618df6a2965"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "typst_importer",
+      "name": "Typst Importer",
+      "tagline": "Render mathematical equations and code blocks",
+      "version": "0.2.3",
+      "type": "add-on",
+      "maintainer": "Jan-Hendrik M\u00fcller<jan-hendrik.mueller@uni-goettingen.de>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "website": "https://github.com/kolibril13/blender_typst_importer",
+      "copyright": [
+        "2025 Jan-Hendrik M\u00fcller"
+      ],
+      "permissions": {
+        "files": "Importing data files from disk"
+      },
+      "tags": [
+        "Geometry Nodes",
+        "Import-Export"
+      ],
+      "platforms": [
+        "windows-x64"
+      ],
+      "python_versions": [
+        "3.11"
+      ],
+      "archive_url": "./typst_importer-0.2.3-windows_x64.zip",
+      "archive_size": 25851510,
+      "archive_hash": "sha256:ffc603eaf13c20d6583906b250ce24cb738c8ba8c2209314019d897a7ec28129"
     },
     {
       "schema_version": "1.0.0",
@@ -340,40 +340,7 @@
       "id": "typst_importer",
       "name": "Typst Importer",
       "tagline": "Render mathematical equations and code blocks",
-      "version": "0.2.1",
-      "type": "add-on",
-      "maintainer": "Jan-Hendrik M\u00fcller<jan-hendrik.mueller@uni-goettingen.de>",
-      "license": [
-        "SPDX:GPL-3.0-or-later"
-      ],
-      "blender_version_min": "4.2.0",
-      "website": "https://github.com/kolibril13/blender_typst_importer",
-      "copyright": [
-        "2025 Jan-Hendrik M\u00fcller"
-      ],
-      "permissions": {
-        "files": "Importing data files from disk"
-      },
-      "tags": [
-        "Geometry Nodes",
-        "Import-Export"
-      ],
-      "platforms": [
-        "windows-x64"
-      ],
-      "python_versions": [
-        "3.11"
-      ],
-      "archive_url": "./typst_importer-0.2.1-windows_x64.zip",
-      "archive_size": 25265970,
-      "archive_hash": "sha256:7b543423ac671cdf9af721fb987a6723e25d5b8cd8baba29bb72df397e345773"
-    },
-    {
-      "schema_version": "1.0.0",
-      "id": "typst_importer",
-      "name": "Typst Importer",
-      "tagline": "Render mathematical equations and code blocks",
-      "version": "0.2.1",
+      "version": "0.2.3",
       "type": "add-on",
       "maintainer": "Jan-Hendrik M\u00fcller<jan-hendrik.mueller@uni-goettingen.de>",
       "license": [
@@ -397,9 +364,9 @@
       "python_versions": [
         "3.11"
       ],
-      "archive_url": "./typst_importer-0.2.1-linux_x64.zip",
-      "archive_size": 30869207,
-      "archive_hash": "sha256:450ee15a42e6f84c84c5daca14b0577a58f4dd997dfefbccae4c6cdf68bc04c7"
+      "archive_url": "./typst_importer-0.2.3-linux_x64.zip",
+      "archive_size": 31398378,
+      "archive_hash": "sha256:e1381888fa7daaa143a6749736eba94bfc7a74dc2796a34951ee8579b15ffd13"
     },
     {
       "schema_version": "1.0.0",
@@ -433,6 +400,39 @@
       "archive_url": "./csv_importer-0.1.6-windows_x64.zip",
       "archive_size": 31762441,
       "archive_hash": "sha256:15d1b3a3d81c0218503096f5d22c01e6289c204c3d750dfda82213a6eb8e1b9f"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "typst_importer",
+      "name": "Typst Importer",
+      "tagline": "Render mathematical equations and code blocks",
+      "version": "0.2.3",
+      "type": "add-on",
+      "maintainer": "Jan-Hendrik M\u00fcller<jan-hendrik.mueller@uni-goettingen.de>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "website": "https://github.com/kolibril13/blender_typst_importer",
+      "copyright": [
+        "2025 Jan-Hendrik M\u00fcller"
+      ],
+      "permissions": {
+        "files": "Importing data files from disk"
+      },
+      "tags": [
+        "Geometry Nodes",
+        "Import-Export"
+      ],
+      "platforms": [
+        "macos-arm64"
+      ],
+      "python_versions": [
+        "3.11"
+      ],
+      "archive_url": "./typst_importer-0.2.3-macos_arm64.zip",
+      "archive_size": 31197574,
+      "archive_hash": "sha256:1d66a5c859291099e13c049dd0228e24ab1167926f2fc3d621f17da818239f78"
     },
     {
       "schema_version": "1.0.0",
