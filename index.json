@@ -140,7 +140,7 @@
       "id": "typst_importer",
       "name": "Typst Importer",
       "tagline": "Render mathematical equations and code blocks",
-      "version": "0.2.3",
+      "version": "0.2.4",
       "type": "add-on",
       "maintainer": "Jan-Hendrik Müller<jan-hendrik.mueller@uni-goettingen.de>",
       "license": [
@@ -159,14 +159,14 @@
         "Import-Export"
       ],
       "platforms": [
-        "windows-x64"
+        "linux-x64"
       ],
       "python_versions": [
         "3.11"
       ],
-      "archive_url": "https://github.com/kolibril13/blender_typst_importer/releases/download/v0.2.3/typst_importer-0.2.3-windows_x64.zip",
-      "archive_size": 25851510,
-      "archive_hash": "sha256:ffc603eaf13c20d6583906b250ce24cb738c8ba8c2209314019d897a7ec28129"
+      "archive_url": "https://github.com/kolibril13/blender_typst_importer/releases/download/v0.2.4/typst_importer-0.2.4-linux_x64.zip",
+      "archive_size": 31297385,
+      "archive_hash": "sha256:aaf8ddd6fe6b5e2621bdefdca047863595d0704b70cdfa26677074ec37a829d8"
     },
     {
       "schema_version": "1.0.0",
@@ -340,7 +340,7 @@
       "id": "typst_importer",
       "name": "Typst Importer",
       "tagline": "Render mathematical equations and code blocks",
-      "version": "0.2.3",
+      "version": "0.2.4",
       "type": "add-on",
       "maintainer": "Jan-Hendrik Müller<jan-hendrik.mueller@uni-goettingen.de>",
       "license": [
@@ -359,14 +359,14 @@
         "Import-Export"
       ],
       "platforms": [
-        "linux-x64"
+        "windows-x64"
       ],
       "python_versions": [
         "3.11"
       ],
-      "archive_url": "https://github.com/kolibril13/blender_typst_importer/releases/download/v0.2.3/typst_importer-0.2.3-linux_x64.zip",
-      "archive_size": 31398378,
-      "archive_hash": "sha256:e1381888fa7daaa143a6749736eba94bfc7a74dc2796a34951ee8579b15ffd13"
+      "archive_url": "https://github.com/kolibril13/blender_typst_importer/releases/download/v0.2.4/typst_importer-0.2.4-windows_x64.zip",
+      "archive_size": 25708353,
+      "archive_hash": "sha256:0fdaa6b4c958593e4be00bec1affcf5a407417c929f76dead2b2217ee1938081"
     },
     {
       "schema_version": "1.0.0",
@@ -400,39 +400,6 @@
       "archive_url": "https://github.com/BradyAJohnston/blender_csv_import/releases/download/v0.1.6/csv_importer-0.1.6-windows_x64.zip",
       "archive_size": 31762441,
       "archive_hash": "sha256:15d1b3a3d81c0218503096f5d22c01e6289c204c3d750dfda82213a6eb8e1b9f"
-    },
-    {
-      "schema_version": "1.0.0",
-      "id": "typst_importer",
-      "name": "Typst Importer",
-      "tagline": "Render mathematical equations and code blocks",
-      "version": "0.2.3",
-      "type": "add-on",
-      "maintainer": "Jan-Hendrik Müller<jan-hendrik.mueller@uni-goettingen.de>",
-      "license": [
-        "SPDX:GPL-3.0-or-later"
-      ],
-      "blender_version_min": "4.2.0",
-      "website": "https://github.com/kolibril13/blender_typst_importer",
-      "copyright": [
-        "2025 Jan-Hendrik Müller"
-      ],
-      "permissions": {
-        "files": "Importing data files from disk"
-      },
-      "tags": [
-        "Geometry Nodes",
-        "Import-Export"
-      ],
-      "platforms": [
-        "macos-arm64"
-      ],
-      "python_versions": [
-        "3.11"
-      ],
-      "archive_url": "https://github.com/kolibril13/blender_typst_importer/releases/download/v0.2.3/typst_importer-0.2.3-macos_arm64.zip",
-      "archive_size": 31197574,
-      "archive_hash": "sha256:1d66a5c859291099e13c049dd0228e24ab1167926f2fc3d621f17da818239f78"
     },
     {
       "schema_version": "1.0.0",
@@ -500,6 +467,39 @@
       "archive_url": "https://github.com/aafkegros/MicroscopyNodes/releases/download/v2.2.7/microscopynodes-2.2.7-macos_arm64.zip",
       "archive_size": 35887817,
       "archive_hash": "sha256:cab0826efb646cccf28d3ab05b632473db21218ecccda94cc94dce0e13fdff35"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "typst_importer",
+      "name": "Typst Importer",
+      "tagline": "Render mathematical equations and code blocks",
+      "version": "0.2.4",
+      "type": "add-on",
+      "maintainer": "Jan-Hendrik Müller<jan-hendrik.mueller@uni-goettingen.de>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "website": "https://github.com/kolibril13/blender_typst_importer",
+      "copyright": [
+        "2025 Jan-Hendrik Müller"
+      ],
+      "permissions": {
+        "files": "Importing data files from disk"
+      },
+      "tags": [
+        "Geometry Nodes",
+        "Import-Export"
+      ],
+      "platforms": [
+        "macos-arm64"
+      ],
+      "python_versions": [
+        "3.11"
+      ],
+      "archive_url": "https://github.com/kolibril13/blender_typst_importer/releases/download/v0.2.4/typst_importer-0.2.4-macos_arm64.zip",
+      "archive_size": 31450382,
+      "archive_hash": "sha256:6edf8a38ded1d6cd7d037ca711cf81dce50d20934710b92731c16edca0db38e4"
     },
     {
       "schema_version": "1.0.0",
