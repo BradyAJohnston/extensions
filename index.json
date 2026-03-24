@@ -107,7 +107,7 @@
       "id": "csv_importer",
       "name": "CSV Importer",
       "tagline": "import csv data to meshes in Blender",
-      "version": "0.1.6",
+      "version": "0.2.2",
       "type": "add-on",
       "maintainer": "Jan-Hendrik Müller<jan-hendrik.mueller@uni-goettingen.de>",
       "license": [
@@ -126,14 +126,14 @@
         "Import-Export"
       ],
       "platforms": [
-        "macos-x64"
+        "windows-x64"
       ],
       "python_versions": [
         "3"
       ],
-      "archive_url": "https://github.com/BradyAJohnston/blender_csv_import/releases/download/v0.1.6/csv_importer-0.1.6-macos_x64.zip",
-      "archive_size": 31047842,
-      "archive_hash": "sha256:c03e68d8671b781c06d08947cb27c55f58d1e335c9a7a666b872ec1b09175e15"
+      "archive_url": "https://github.com/kolibril13/blender_csv_import/releases/download/v0.2.2/csv_importer-0.2.2-windows_x64.zip",
+      "archive_size": 46529057,
+      "archive_hash": "sha256:631249d12f3617113e2f22fa4006a9a96fdb9774e9a0d3a61fb660656314937b"
     },
     {
       "schema_version": "1.0.0",
@@ -167,72 +167,6 @@
       "archive_url": "https://github.com/kolibril13/blender_typst_importer/releases/download/v0.2.4/typst_importer-0.2.4-linux_x64.zip",
       "archive_size": 31297385,
       "archive_hash": "sha256:aaf8ddd6fe6b5e2621bdefdca047863595d0704b70cdfa26677074ec37a829d8"
-    },
-    {
-      "schema_version": "1.0.0",
-      "id": "csv_importer",
-      "name": "CSV Importer",
-      "tagline": "import csv data to meshes in Blender",
-      "version": "0.1.6",
-      "type": "add-on",
-      "maintainer": "Jan-Hendrik Müller<jan-hendrik.mueller@uni-goettingen.de>",
-      "license": [
-        "SPDX:GPL-3.0-or-later"
-      ],
-      "blender_version_min": "4.2.5",
-      "website": "https://github.com/kolibril13/blender_csv_import",
-      "copyright": [
-        "2024 Jan-Hendrik Müller"
-      ],
-      "permissions": {
-        "files": "Importing data files from disk"
-      },
-      "tags": [
-        "Geometry Nodes",
-        "Import-Export"
-      ],
-      "platforms": [
-        "macos-arm64"
-      ],
-      "python_versions": [
-        "3"
-      ],
-      "archive_url": "https://github.com/BradyAJohnston/blender_csv_import/releases/download/v0.1.6/csv_importer-0.1.6-macos_arm64.zip",
-      "archive_size": 28066530,
-      "archive_hash": "sha256:5b7361dc1e902e2bb379e4374c5be11e00a1ffff985cc2d95f48ea0a9c942716"
-    },
-    {
-      "schema_version": "1.0.0",
-      "id": "csv_importer",
-      "name": "CSV Importer",
-      "tagline": "import csv data to meshes in Blender",
-      "version": "0.1.6",
-      "type": "add-on",
-      "maintainer": "Jan-Hendrik Müller<jan-hendrik.mueller@uni-goettingen.de>",
-      "license": [
-        "SPDX:GPL-3.0-or-later"
-      ],
-      "blender_version_min": "4.2.5",
-      "website": "https://github.com/kolibril13/blender_csv_import",
-      "copyright": [
-        "2024 Jan-Hendrik Müller"
-      ],
-      "permissions": {
-        "files": "Importing data files from disk"
-      },
-      "tags": [
-        "Geometry Nodes",
-        "Import-Export"
-      ],
-      "platforms": [
-        "linux-x64"
-      ],
-      "python_versions": [
-        "3"
-      ],
-      "archive_url": "https://github.com/BradyAJohnston/blender_csv_import/releases/download/v0.1.6/csv_importer-0.1.6-linux_x64.zip",
-      "archive_size": 31674452,
-      "archive_hash": "sha256:3debdc29f2314686fd5a0044fbae66856c86024e565dbdae12a8b117b4c25f16"
     },
     {
       "schema_version": "1.0.0",
@@ -336,6 +270,39 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "csv_importer",
+      "name": "CSV Importer",
+      "tagline": "import csv data to meshes in Blender",
+      "version": "0.2.2",
+      "type": "add-on",
+      "maintainer": "Jan-Hendrik Müller<jan-hendrik.mueller@uni-goettingen.de>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.5",
+      "website": "https://github.com/kolibril13/blender_csv_import",
+      "copyright": [
+        "2024 Jan-Hendrik Müller"
+      ],
+      "permissions": {
+        "files": "Importing data files from disk"
+      },
+      "tags": [
+        "Geometry Nodes",
+        "Import-Export"
+      ],
+      "platforms": [
+        "macos-arm64"
+      ],
+      "python_versions": [
+        "3"
+      ],
+      "archive_url": "https://github.com/kolibril13/blender_csv_import/releases/download/v0.2.2/csv_importer-0.2.2-macos_arm64.zip",
+      "archive_size": 41086953,
+      "archive_hash": "sha256:f37c514cce6e9dd3aee9931fa19372822afbdc85dc862d3f7f1480dc4ab27ff9"
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "molecularnodes",
       "name": "Molecular Nodes",
       "tagline": "A toolbox for molecular import and animation in Blender",
@@ -367,39 +334,6 @@
       "archive_url": "https://github.com/BradyAJohnston/MolecularNodes/releases/download/v4.5.12/molecularnodes-4.5.12-linux_x64.zip",
       "archive_size": 164015003,
       "archive_hash": "sha256:3ed43609e5735a9c8c21b4048d5be6fea82a7d4e45b63de872011164fa72c02b"
-    },
-    {
-      "schema_version": "1.0.0",
-      "id": "csv_importer",
-      "name": "CSV Importer",
-      "tagline": "import csv data to meshes in Blender",
-      "version": "0.1.6",
-      "type": "add-on",
-      "maintainer": "Jan-Hendrik Müller<jan-hendrik.mueller@uni-goettingen.de>",
-      "license": [
-        "SPDX:GPL-3.0-or-later"
-      ],
-      "blender_version_min": "4.2.5",
-      "website": "https://github.com/kolibril13/blender_csv_import",
-      "copyright": [
-        "2024 Jan-Hendrik Müller"
-      ],
-      "permissions": {
-        "files": "Importing data files from disk"
-      },
-      "tags": [
-        "Geometry Nodes",
-        "Import-Export"
-      ],
-      "platforms": [
-        "windows-x64"
-      ],
-      "python_versions": [
-        "3"
-      ],
-      "archive_url": "https://github.com/BradyAJohnston/blender_csv_import/releases/download/v0.1.6/csv_importer-0.1.6-windows_x64.zip",
-      "archive_size": 31762441,
-      "archive_hash": "sha256:15d1b3a3d81c0218503096f5d22c01e6289c204c3d750dfda82213a6eb8e1b9f"
     },
     {
       "schema_version": "1.0.0",
@@ -466,6 +400,39 @@
       "archive_url": "https://github.com/kolibril13/blender_typst_importer/releases/download/v0.2.4/typst_importer-0.2.4-macos_arm64.zip",
       "archive_size": 31450382,
       "archive_hash": "sha256:6edf8a38ded1d6cd7d037ca711cf81dce50d20934710b92731c16edca0db38e4"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "csv_importer",
+      "name": "CSV Importer",
+      "tagline": "import csv data to meshes in Blender",
+      "version": "0.2.2",
+      "type": "add-on",
+      "maintainer": "Jan-Hendrik Müller<jan-hendrik.mueller@uni-goettingen.de>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.5",
+      "website": "https://github.com/kolibril13/blender_csv_import",
+      "copyright": [
+        "2024 Jan-Hendrik Müller"
+      ],
+      "permissions": {
+        "files": "Importing data files from disk"
+      },
+      "tags": [
+        "Geometry Nodes",
+        "Import-Export"
+      ],
+      "platforms": [
+        "linux-x64"
+      ],
+      "python_versions": [
+        "3"
+      ],
+      "archive_url": "https://github.com/kolibril13/blender_csv_import/releases/download/v0.2.2/csv_importer-0.2.2-linux_x64.zip",
+      "archive_size": 46608396,
+      "archive_hash": "sha256:f4bccb725e30fb00c361c3fb87c7e52d9c07e87ec28811fb1513416cc83cbe67"
     },
     {
       "schema_version": "1.0.0",
