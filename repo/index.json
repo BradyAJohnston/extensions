@@ -74,7 +74,7 @@
       "id": "typst_importer",
       "name": "Typst Importer",
       "tagline": "Render mathematical equations and code blocks",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "type": "add-on",
       "maintainer": "Jan-Hendrik M\u00fcller<jan-hendrik.mueller@uni-goettingen.de>",
       "license": [
@@ -93,14 +93,14 @@
         "Import-Export"
       ],
       "platforms": [
-        "linux-x64"
+        "macos-arm64"
       ],
       "python_versions": [
         "3.13"
       ],
-      "archive_url": "./typst_importer-0.3.0-linux_x64.zip",
-      "archive_size": 31215864,
-      "archive_hash": "sha256:7b620fd66799b423ce65dfbcc345d43b60b0de80cc0c27deb904eb409a058e47"
+      "archive_url": "./typst_importer-0.3.1-macos_arm64.zip",
+      "archive_size": 31445822,
+      "archive_hash": "sha256:81a612d9b43ff4b5a47feb92c3edf8fc273c0b5b01db37f302f513552adeeba3"
     },
     {
       "schema_version": "1.0.0",
@@ -134,39 +134,6 @@
       "archive_url": "./csv_importer-0.2.2-windows_x64.zip",
       "archive_size": 46529057,
       "archive_hash": "sha256:631249d12f3617113e2f22fa4006a9a96fdb9774e9a0d3a61fb660656314937b"
-    },
-    {
-      "schema_version": "1.0.0",
-      "id": "typst_importer",
-      "name": "Typst Importer",
-      "tagline": "Render mathematical equations and code blocks",
-      "version": "0.3.0",
-      "type": "add-on",
-      "maintainer": "Jan-Hendrik M\u00fcller<jan-hendrik.mueller@uni-goettingen.de>",
-      "license": [
-        "SPDX:GPL-3.0-or-later"
-      ],
-      "blender_version_min": "4.2.0",
-      "website": "https://github.com/kolibril13/blender_typst_importer",
-      "copyright": [
-        "2025 Jan-Hendrik M\u00fcller"
-      ],
-      "permissions": {
-        "files": "Importing data files from disk"
-      },
-      "tags": [
-        "Geometry Nodes",
-        "Import-Export"
-      ],
-      "platforms": [
-        "macos-arm64"
-      ],
-      "python_versions": [
-        "3.13"
-      ],
-      "archive_url": "./typst_importer-0.3.0-macos_arm64.zip",
-      "archive_size": 31370223,
-      "archive_hash": "sha256:b4ff5de363b355bb87ef669b67ce5e8dbda0e61f32f506d6223fca10a784541e"
     },
     {
       "schema_version": "1.0.0",
@@ -234,6 +201,39 @@
       "archive_url": "./molecularnodes-4.5.12-macos_arm64.zip",
       "archive_size": 123060883,
       "archive_hash": "sha256:1ed616683cedd28675b9ad728ddc3a7e948af8bd4e6f3f930a5f60838a89e191"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "typst_importer",
+      "name": "Typst Importer",
+      "tagline": "Render mathematical equations and code blocks",
+      "version": "0.3.1",
+      "type": "add-on",
+      "maintainer": "Jan-Hendrik M\u00fcller<jan-hendrik.mueller@uni-goettingen.de>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "website": "https://github.com/kolibril13/blender_typst_importer",
+      "copyright": [
+        "2025 Jan-Hendrik M\u00fcller"
+      ],
+      "permissions": {
+        "files": "Importing data files from disk"
+      },
+      "tags": [
+        "Geometry Nodes",
+        "Import-Export"
+      ],
+      "platforms": [
+        "windows-x64"
+      ],
+      "python_versions": [
+        "3.13"
+      ],
+      "archive_url": "./typst_importer-0.3.1-windows_x64.zip",
+      "archive_size": 25736452,
+      "archive_hash": "sha256:7cd5ac9738191267cdd5d9c0445ee35346625789b3169420b266305278b20aeb"
     },
     {
       "schema_version": "1.0.0",
@@ -307,7 +307,7 @@
       "id": "typst_importer",
       "name": "Typst Importer",
       "tagline": "Render mathematical equations and code blocks",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "type": "add-on",
       "maintainer": "Jan-Hendrik M\u00fcller<jan-hendrik.mueller@uni-goettingen.de>",
       "license": [
@@ -326,14 +326,14 @@
         "Import-Export"
       ],
       "platforms": [
-        "windows-x64"
+        "linux-x64"
       ],
       "python_versions": [
         "3.13"
       ],
-      "archive_url": "./typst_importer-0.3.0-windows_x64.zip",
-      "archive_size": 25575164,
-      "archive_hash": "sha256:e5c2cbe6c07106c97005b6e503a476921a6c87a35272216af2cd0b82c1c1c928"
+      "archive_url": "./typst_importer-0.3.1-linux_x64.zip",
+      "archive_size": 31390480,
+      "archive_hash": "sha256:7843a86f89424732253c42f3582c04e657aa57f23482a399b7294b872b79031f"
     },
     {
       "schema_version": "1.0.0",
