@@ -40,13 +40,13 @@
       "id": "csv_importer",
       "name": "CSV Importer",
       "tagline": "import csv data to meshes in Blender",
-      "version": "0.2.3",
+      "version": "0.2.7",
       "type": "add-on",
       "maintainer": "Jan-Hendrik M\u00fcller<jan-hendrik.mueller@uni-goettingen.de>",
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
-      "blender_version_min": "4.2.5",
+      "blender_version_min": "5.2.0",
       "website": "https://github.com/kolibril13/blender_csv_import",
       "copyright": [
         "2024 Jan-Hendrik M\u00fcller"
@@ -64,25 +64,25 @@
       "python_versions": [
         "3"
       ],
-      "archive_url": "./csv_importer-0.2.3-linux_x64.zip",
-      "archive_size": 58189345,
-      "archive_hash": "sha256:f1b0982276df6138f9532444d7157f2288132576f9fbda090b5564f5d5468c21"
+      "archive_url": "./csv_importer-0.2.7-linux_x64.zip",
+      "archive_size": 55953863,
+      "archive_hash": "sha256:820e824da877e1027872c7ebf8258334563fcbe6c57a1a706b7d68c6b38d43c9"
     },
     {
       "schema_version": "1.0.0",
-      "id": "typst_importer",
-      "name": "Typst Importer",
-      "tagline": "Render mathematical equations and code blocks",
-      "version": "0.3.7",
+      "id": "csv_importer",
+      "name": "CSV Importer",
+      "tagline": "import csv data to meshes in Blender",
+      "version": "0.2.7",
       "type": "add-on",
       "maintainer": "Jan-Hendrik M\u00fcller<jan-hendrik.mueller@uni-goettingen.de>",
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
       "blender_version_min": "5.2.0",
-      "website": "https://github.com/kolibril13/blender_typst_importer",
+      "website": "https://github.com/kolibril13/blender_csv_import",
       "copyright": [
-        "2025 Jan-Hendrik M\u00fcller"
+        "2024 Jan-Hendrik M\u00fcller"
       ],
       "permissions": {
         "files": "Importing data files from disk"
@@ -92,14 +92,14 @@
         "Import-Export"
       ],
       "platforms": [
-        "linux-x64"
+        "macos-arm64"
       ],
       "python_versions": [
-        "3.13"
+        "3"
       ],
-      "archive_url": "./typst_importer-0.3.7-linux_x64.zip",
-      "archive_size": 41758019,
-      "archive_hash": "sha256:9ae830eca593b2acbd43cbea7bcf6308cc39f9ea5879b1966d4b1ed97aa410ac"
+      "archive_url": "./csv_importer-0.2.7-macos_arm64.zip",
+      "archive_size": 49408860,
+      "archive_hash": "sha256:af27d6c85c14dbe537b2754e0f81fb513d29dc7eb4d280f3c38a9f05b79b6c4d"
     },
     {
       "schema_version": "1.0.0",
@@ -137,43 +137,10 @@
     },
     {
       "schema_version": "1.0.0",
-      "id": "csv_importer",
-      "name": "CSV Importer",
-      "tagline": "import csv data to meshes in Blender",
-      "version": "0.2.3",
-      "type": "add-on",
-      "maintainer": "Jan-Hendrik M\u00fcller<jan-hendrik.mueller@uni-goettingen.de>",
-      "license": [
-        "SPDX:GPL-3.0-or-later"
-      ],
-      "blender_version_min": "4.2.5",
-      "website": "https://github.com/kolibril13/blender_csv_import",
-      "copyright": [
-        "2024 Jan-Hendrik M\u00fcller"
-      ],
-      "permissions": {
-        "files": "Importing data files from disk"
-      },
-      "tags": [
-        "Geometry Nodes",
-        "Import-Export"
-      ],
-      "platforms": [
-        "windows-x64"
-      ],
-      "python_versions": [
-        "3"
-      ],
-      "archive_url": "./csv_importer-0.2.3-windows_x64.zip",
-      "archive_size": 53601988,
-      "archive_hash": "sha256:f3f6b15df15381d0f7ba6a47f161b8552f6c850d5beda4e3471c5ae07a38812b"
-    },
-    {
-      "schema_version": "1.0.0",
       "id": "typst_importer",
       "name": "Typst Importer",
       "tagline": "Render mathematical equations and code blocks",
-      "version": "0.3.7",
+      "version": "0.3.8",
       "type": "add-on",
       "maintainer": "Jan-Hendrik M\u00fcller<jan-hendrik.mueller@uni-goettingen.de>",
       "license": [
@@ -197,9 +164,42 @@
       "python_versions": [
         "3.13"
       ],
-      "archive_url": "./typst_importer-0.3.7-macos_arm64.zip",
-      "archive_size": 41578691,
-      "archive_hash": "sha256:5ef375c282ae421af8a9fb117d3d86ee36a895e25a7c9fb3a62bd66844c47744"
+      "archive_url": "./typst_importer-0.3.8-macos_arm64.zip",
+      "archive_size": 41608846,
+      "archive_hash": "sha256:8475b7ac54fba1ce6f453fd768ec64b9ef195d00d25219ab939e9db3d0bffe27"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "typst_importer",
+      "name": "Typst Importer",
+      "tagline": "Render mathematical equations and code blocks",
+      "version": "0.3.8",
+      "type": "add-on",
+      "maintainer": "Jan-Hendrik M\u00fcller<jan-hendrik.mueller@uni-goettingen.de>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "5.2.0",
+      "website": "https://github.com/kolibril13/blender_typst_importer",
+      "copyright": [
+        "2025 Jan-Hendrik M\u00fcller"
+      ],
+      "permissions": {
+        "files": "Importing data files from disk"
+      },
+      "tags": [
+        "Geometry Nodes",
+        "Import-Export"
+      ],
+      "platforms": [
+        "linux-x64"
+      ],
+      "python_versions": [
+        "3.13"
+      ],
+      "archive_url": "./typst_importer-0.3.8-linux_x64.zip",
+      "archive_size": 41768591,
+      "archive_hash": "sha256:1c349fa2671fe4a2d2907948ce18ceca0fdee1c134dba038953df0e2d9a36524"
     },
     {
       "schema_version": "1.0.0",
@@ -266,6 +266,39 @@
       "archive_url": "./microscopynodes-3.1.3-linux_x64.zip",
       "archive_size": 75490970,
       "archive_hash": "sha256:9db46dc3afc984563172aa686efc9751f8cdfe670be58f578af030a57f05aaec"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "csv_importer",
+      "name": "CSV Importer",
+      "tagline": "import csv data to meshes in Blender",
+      "version": "0.2.7",
+      "type": "add-on",
+      "maintainer": "Jan-Hendrik M\u00fcller<jan-hendrik.mueller@uni-goettingen.de>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "5.2.0",
+      "website": "https://github.com/kolibril13/blender_csv_import",
+      "copyright": [
+        "2024 Jan-Hendrik M\u00fcller"
+      ],
+      "permissions": {
+        "files": "Importing data files from disk"
+      },
+      "tags": [
+        "Geometry Nodes",
+        "Import-Export"
+      ],
+      "platforms": [
+        "windows-x64"
+      ],
+      "python_versions": [
+        "3"
+      ],
+      "archive_url": "./csv_importer-0.2.7-windows_x64.zip",
+      "archive_size": 55708749,
+      "archive_hash": "sha256:3a7ea3773de2e3e0342d2eee3bd2e6a9d52d95d7103723a325ea8a3e8cb60a82"
     },
     {
       "schema_version": "1.0.0",
@@ -337,43 +370,10 @@
     },
     {
       "schema_version": "1.0.0",
-      "id": "csv_importer",
-      "name": "CSV Importer",
-      "tagline": "import csv data to meshes in Blender",
-      "version": "0.2.3",
-      "type": "add-on",
-      "maintainer": "Jan-Hendrik M\u00fcller<jan-hendrik.mueller@uni-goettingen.de>",
-      "license": [
-        "SPDX:GPL-3.0-or-later"
-      ],
-      "blender_version_min": "4.2.5",
-      "website": "https://github.com/kolibril13/blender_csv_import",
-      "copyright": [
-        "2024 Jan-Hendrik M\u00fcller"
-      ],
-      "permissions": {
-        "files": "Importing data files from disk"
-      },
-      "tags": [
-        "Geometry Nodes",
-        "Import-Export"
-      ],
-      "platforms": [
-        "macos-arm64"
-      ],
-      "python_versions": [
-        "3"
-      ],
-      "archive_url": "./csv_importer-0.2.3-macos_arm64.zip",
-      "archive_size": 48332823,
-      "archive_hash": "sha256:5d8008abf0e7f4461152c1d233d5151bdc9fa29dc75341ac3233758b37cc4a99"
-    },
-    {
-      "schema_version": "1.0.0",
       "id": "typst_importer",
       "name": "Typst Importer",
       "tagline": "Render mathematical equations and code blocks",
-      "version": "0.3.7",
+      "version": "0.3.8",
       "type": "add-on",
       "maintainer": "Jan-Hendrik M\u00fcller<jan-hendrik.mueller@uni-goettingen.de>",
       "license": [
@@ -397,9 +397,9 @@
       "python_versions": [
         "3.13"
       ],
-      "archive_url": "./typst_importer-0.3.7-windows_x64.zip",
-      "archive_size": 35882774,
-      "archive_hash": "sha256:3fd01a8fa572bcceb910bfe3eb931058220822da8bcb721c5bc8ba4c4260cff7"
+      "archive_url": "./typst_importer-0.3.8-windows_x64.zip",
+      "archive_size": 35890572,
+      "archive_hash": "sha256:420cabcf7fe98d66e4e888b95aa9324c3bc90371fe0f91f6e2cc90e3560de744"
     },
     {
       "schema_version": "1.0.0",
