@@ -37,6 +37,41 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "warbler",
+      "name": "Warbler",
+      "tagline": "Interactive GPU simulations in Blender's viewport",
+      "version": "0.0.10",
+      "type": "add-on",
+      "maintainer": "Brady Johnston <brady.johnston@me.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "5.2.0",
+      "website": "https://bradyajohnston.github.io/warbler",
+      "copyright": [
+        "2024 Brady Johnston"
+      ],
+      "permissions": {
+        "files": "Saving cached simulations to disk"
+      },
+      "tags": [
+        "3D View",
+        "Animation",
+        "Bake",
+        "Physics"
+      ],
+      "platforms": [
+        "linux-x64"
+      ],
+      "python_versions": [
+        "3"
+      ],
+      "archive_url": "./warbler-linux_x64.zip",
+      "archive_size": 156173852,
+      "archive_hash": "sha256:b3f00e6bbde01f32746fef8ac1c6d581e88f8e07e062aa2b87fda53b8a869472"
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "typst_importer",
       "name": "Typst Importer",
       "tagline": "Render mathematical equations and code blocks",
@@ -100,6 +135,41 @@
       "archive_url": "./typst_importer-0.3.10-linux_x64.zip",
       "archive_size": 45288469,
       "archive_hash": "sha256:e52b6abd42dd86a4cd8f99280dfeb54f578c187d84d99f0317e21a5b88f6e874"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "warbler",
+      "name": "Warbler",
+      "tagline": "Interactive GPU simulations in Blender's viewport",
+      "version": "0.0.10",
+      "type": "add-on",
+      "maintainer": "Brady Johnston <brady.johnston@me.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "5.2.0",
+      "website": "https://bradyajohnston.github.io/warbler",
+      "copyright": [
+        "2024 Brady Johnston"
+      ],
+      "permissions": {
+        "files": "Saving cached simulations to disk"
+      },
+      "tags": [
+        "3D View",
+        "Animation",
+        "Bake",
+        "Physics"
+      ],
+      "platforms": [
+        "macos-arm64"
+      ],
+      "python_versions": [
+        "3"
+      ],
+      "archive_url": "./warbler-macos_arm64.zip",
+      "archive_size": 35182141,
+      "archive_hash": "sha256:6a4ddf1c3edad6b69fa38c61dafc66ad85628517b6d315006c11303d18cec9e5"
     },
     {
       "schema_version": "1.0.0",
@@ -302,6 +372,41 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "warbler",
+      "name": "Warbler",
+      "tagline": "Interactive GPU simulations in Blender's viewport",
+      "version": "0.0.10",
+      "type": "add-on",
+      "maintainer": "Brady Johnston <brady.johnston@me.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "5.2.0",
+      "website": "https://bradyajohnston.github.io/warbler",
+      "copyright": [
+        "2024 Brady Johnston"
+      ],
+      "permissions": {
+        "files": "Saving cached simulations to disk"
+      },
+      "tags": [
+        "3D View",
+        "Animation",
+        "Bake",
+        "Physics"
+      ],
+      "platforms": [
+        "windows-x64"
+      ],
+      "python_versions": [
+        "3"
+      ],
+      "archive_url": "./warbler-windows_x64.zip",
+      "archive_size": 141969696,
+      "archive_hash": "sha256:397d581f55a67efe00c62fb7a90eb5caba53ac39b40f24b6336077f34e54bc14"
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "molecularnodes",
       "name": "Molecular Nodes",
       "tagline": "A toolbox for molecular import and animation in Blender",
@@ -400,38 +505,6 @@
       "archive_url": "./molecularnodes-520.2.0-macos_arm64.zip",
       "archive_size": 124045041,
       "archive_hash": "sha256:1957bad78036dc7a4e19c4f0d09162436f719e10ee73c348c55b2e0290b0c64b"
-    },
-    {
-      "schema_version": "1.0.0",
-      "id": "warbler",
-      "name": "warbler",
-      "tagline": "Interactive GPU simulations",
-      "version": "0.0.6",
-      "type": "add-on",
-      "maintainer": "Brady Johnston <brady.johnston@me.com>",
-      "license": [
-        "SPDX:GPL-3.0-or-later"
-      ],
-      "blender_version_min": "4.2.0",
-      "website": "https://bradyajohnston.github.io/warbler",
-      "permissions": {
-        "files": "Saving cached simulations to disk"
-      },
-      "tags": [
-        "3D View",
-        "Animation",
-        "Bake",
-        "Physics"
-      ],
-      "platforms": [
-        "windows-x64"
-      ],
-      "python_versions": [
-        "3"
-      ],
-      "archive_url": "./warbler-0.0.6-windows_x64.zip",
-      "archive_size": 109575897,
-      "archive_hash": "sha256:fafbac5b8fed79f99e26e4946ed52100a29aa1ad49db74c47c119ebc89301dc8"
     }
   ]
 }
